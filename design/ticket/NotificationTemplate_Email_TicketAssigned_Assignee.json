@@ -1,0 +1,33 @@
+{
+  "attachmentObjectFieldExternalReferenceCodes": [],
+  "attachmentObjectFieldIds": [],
+  "body": {},
+  "description": "Sends email notification to the ticket assignee whenever this value is updated.",
+  "editorType": "richText",
+  "externalReferenceCode": "TICKET_ASSIGNED_ASSIGNEE_EMAIL",
+  "name": "User_TicketAssigned_Assignee",
+  "name_i18n": {
+    "en_US": "User_TicketAssigned_Assignee"
+  },
+  "objectDefinitionExternalReferenceCode": "",
+  "objectDefinitionId": 0,
+  "recipientType": "email",
+  "recipients": [
+    {
+      "cc": "",
+      "bcc": "",
+      "fromName": {
+        "en_US": "Liferay Learn"
+      },
+      "from": "learn@liferay.com",
+      "to": {
+        "en_US": "assignee@liferay.com"
+      }
+    }
+  ],
+  "subject": {
+    "en_US": "Ticket [%TICKET_ID%] was assigned to you."
+  },
+  "type": "email",
+  "typeLabel": "Email"
+}

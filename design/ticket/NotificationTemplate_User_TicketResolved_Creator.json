@@ -1,0 +1,25 @@
+{
+  "attachmentObjectFieldExternalReferenceCodes": [],
+  "attachmentObjectFieldIds": [],
+  "body": {},
+  "description": "Sends user notification to ticket creator when it has been resolved.",
+  "editorType": "richText",
+  "externalReferenceCode": "TICKET_RESOLVED_CREATOR_USER",
+  "name": "User_TicketResolved_Creator",
+  "name_i18n": {
+    "en_US": "User_TicketResolved_Creator"
+  },
+  "objectDefinitionExternalReferenceCode": "",
+  "objectDefinitionId": 0,
+  "recipientType": "term",
+  "recipients": [
+    {
+      "term": "[%TICKET_AUTHOR_ID%]"
+    }
+  ],
+  "subject": {
+    "en_US": "Ticket [%TICKET_ID%] has been resolved."
+  },
+  "type": "userNotification",
+  "typeLabel": "User Notification"
+}

@@ -1,0 +1,33 @@
+{
+  "attachmentObjectFieldExternalReferenceCodes": [],
+  "attachmentObjectFieldIds": [],
+  "body": {},
+  "description": "Sends email notification to ticket creator when it has been resolved.",
+  "editorType": "richText",
+  "externalReferenceCode": "TICKET_RESOLVED_CREATOR_EMAIL",
+  "name": "Email_TicketResolved_Creator",
+  "name_i18n": {
+    "en_US": "Email_TicketResolved_Creator"
+  },
+  "objectDefinitionExternalReferenceCode": "",
+  "objectDefinitionId": 0,
+  "recipientType": "email",
+  "recipients": [
+    {
+      "cc": "",
+      "bcc": "",
+      "fromName": {
+        "en_US": "Liferay Learn"
+      },
+      "from": "learn@liferay.com",
+      "to": {
+        "en_US": "[%TICKET_AUTHOR_EMAIL_ADDRESS%]"
+      }
+    }
+  ],
+  "subject": {
+    "en_US": "Resolved"
+  },
+  "type": "email",
+  "typeLabel": "Email"
+}

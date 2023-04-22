@@ -1,0 +1,25 @@
+{
+  "attachmentObjectFieldExternalReferenceCodes": [],
+  "attachmentObjectFieldIds": [],
+  "body": {},
+  "description": "Sends user notifications to a list of ticket watchers whenever the ticket is updated.",
+  "editorType": "richText",
+  "externalReferenceCode": "TICKET_UPDATED_WATCHERS_USER",
+  "name": "User_TicketUpdated_Watchers",
+  "name_i18n": {
+    "en_US": "User_TicketUpdated_Watchers"
+  },
+  "objectDefinitionExternalReferenceCode": "",
+  "objectDefinitionId": 0,
+  "recipientType": "term",
+  "recipients": [
+    {
+      "term": "[%TICKET_WATCHERS%]"
+    }
+  ],
+  "subject": {
+    "en_US": "Ticket [%TICKET_ID%] was updated."
+  },
+  "type": "userNotification",
+  "typeLabel": "User Notification"
+}

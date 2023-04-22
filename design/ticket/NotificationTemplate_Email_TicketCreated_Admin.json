@@ -1,0 +1,33 @@
+{
+  "attachmentObjectFieldExternalReferenceCodes": [],
+  "attachmentObjectFieldIds": [],
+  "body": {},
+  "description": "",
+  "editorType": "richText",
+  "externalReferenceCode": "TICKET_CREATED_ADMIN_EMAIL",
+  "name": "Email_TicketCreated_Admin",
+  "name_i18n": {
+    "en_US": "Email_TicketCreated_Admin"
+  },
+  "objectDefinitionExternalReferenceCode": "",
+  "objectDefinitionId": 0,
+  "recipientType": "email",
+  "recipients": [
+    {
+      "cc": "",
+      "bcc": "",
+      "fromName": {
+        "en_US": "Liferay Learn"
+      },
+      "from": "learn@liferay.com",
+      "to": {
+        "en_US": "admin@liferay.com"
+      }
+    }
+  ],
+  "subject": {
+    "en_US": "Ticket [%TICKET_ID%] was created."
+  },
+  "type": "email",
+  "typeLabel": "Email"
+}

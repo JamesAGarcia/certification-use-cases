@@ -1,0 +1,25 @@
+{
+  "attachmentObjectFieldExternalReferenceCodes": [],
+  "attachmentObjectFieldIds": [],
+  "body": {},
+  "description": "Sends user notification to the ticket assignee whenever this value is updated.",
+  "editorType": "richText",
+  "externalReferenceCode": "TICKET_ASSIGNED_ASSIGNEE_USER",
+  "name": "User_TicketAssigned_Assignee",
+  "name_i18n": {
+    "en_US": "User_TicketAssigned_Assignee"
+  },
+  "objectDefinitionExternalReferenceCode": "",
+  "objectDefinitionId": 0,
+  "recipientType": "term",
+  "recipients": [
+    {
+      "term": "[%TICKET_R_ASSIGNEE_USERID%]"
+    }
+  ],
+  "subject": {
+    "en_US": "Ticket [%TICKET_ID%] was assigned to you."
+  },
+  "type": "userNotification",
+  "typeLabel": "User Notification"
+}
