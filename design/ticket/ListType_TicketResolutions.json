@@ -1,1 +1,72 @@
-{"name_i18n":{"en-US":"Ticket Resolutions"},"name":"Ticket Resolutions","listTypeEntries":[{"name_i18n":{"en-US":"Unresolved"},"name":"Unresolved","type":"","key":"unresolved","externalReferenceCode":"unresolved-resolution"},{"name_i18n":{"en-US":"Fixed"},"name":"Fixed","type":"","key":"fixed","externalReferenceCode":"fixed-resolution"},{"name_i18n":{"en-US":"Duplicate"},"name":"Duplicate","type":"","key":"duplicate","externalReferenceCode":"duplicate-resolution"},{"name_i18n":{"en-US":"Expired"},"name":"Expired","type":"","key":"expired","externalReferenceCode":"expired-resolution"},{"name_i18n":{"en-US":"Done"},"name":"Done","type":"","key":"done","externalReferenceCode":"done-resolution"},{"name_i18n":{"en-US":"Approved"},"name":"Approved","type":"","key":"approved","externalReferenceCode":"approved-resolution"},{"name_i18n":{"en-US":"Rejected"},"name":"Rejected","type":"","key":"rejected","externalReferenceCode":"rejected-resolution"}],"externalReferenceCode":"list-ticket-resolutions"}
+{
+  "externalReferenceCode": "list-ticket-resolutions",
+  "listTypeEntries": [
+    {
+      "externalReferenceCode": "unresolved-resolution",
+      "key": "unresolved",
+      "name": "Unresolved",
+      "name_i18n": {
+        "en-US": "Unresolved"
+      },
+      "type": ""
+    },
+    {
+      "externalReferenceCode": "fixed-resolution",
+      "key": "fixed",
+      "name": "Fixed",
+      "name_i18n": {
+        "en-US": "Fixed"
+      },
+      "type": ""
+    },
+    {
+      "externalReferenceCode": "duplicate-resolution",
+      "key": "duplicate",
+      "name": "Duplicate",
+      "name_i18n": {
+        "en-US": "Duplicate"
+      },
+      "type": ""
+    },
+    {
+      "externalReferenceCode": "expired-resolution",
+      "key": "expired",
+      "name": "Expired",
+      "name_i18n": {
+        "en-US": "Expired"
+      },
+      "type": ""
+    },
+    {
+      "externalReferenceCode": "done-resolution",
+      "key": "done",
+      "name": "Done",
+      "name_i18n": {
+        "en-US": "Done"
+      },
+      "type": ""
+    },
+    {
+      "externalReferenceCode": "approved-resolution",
+      "key": "approved",
+      "name": "Approved",
+      "name_i18n": {
+        "en-US": "Approved"
+      },
+      "type": ""
+    },
+    {
+      "externalReferenceCode": "rejected-resolution",
+      "key": "rejected",
+      "name": "Rejected",
+      "name_i18n": {
+        "en-US": "Rejected"
+      },
+      "type": ""
+    }
+  ],
+  "name": "Ticket Resolutions",
+  "name_i18n": {
+    "en-US": "Ticket Resolutions"
+  }
+}

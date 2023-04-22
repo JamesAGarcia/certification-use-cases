@@ -1,1 +1,54 @@
-{"name_i18n":{"en-US":"Ticket Priorities"},"name":"Ticket Priorities","listTypeEntries":[{"name_i18n":{"en-US":"Minor"},"name":"Minor","type":"","key":"minor","externalReferenceCode":"minor-priority"},{"name_i18n":{"en-US":"Moderate"},"name":"Moderate","type":"","key":"moderate","externalReferenceCode":"moderate-priority"},{"name_i18n":{"en-US":"Major"},"name":"Major","type":"","key":"major","externalReferenceCode":"major-priority"},{"name_i18n":{"en-US":"Critical"},"name":"Critical","type":"","key":"critical","externalReferenceCode":"critical-priority"},{"name_i18n":{"en-US":"Unassigned"},"name":"Unassigned","type":"","key":"unassigned","externalReferenceCode":"unassigned-priority"}],"externalReferenceCode":"list-ticket-priorities"}
+{
+  "externalReferenceCode": "list-ticket-priorities",
+  "listTypeEntries": [
+    {
+      "externalReferenceCode": "minor-priority",
+      "key": "minor",
+      "name": "Minor",
+      "name_i18n": {
+        "en-US": "Minor"
+      },
+      "type": ""
+    },
+    {
+      "externalReferenceCode": "moderate-priority",
+      "key": "moderate",
+      "name": "Moderate",
+      "name_i18n": {
+        "en-US": "Moderate"
+      },
+      "type": ""
+    },
+    {
+      "externalReferenceCode": "major-priority",
+      "key": "major",
+      "name": "Major",
+      "name_i18n": {
+        "en-US": "Major"
+      },
+      "type": ""
+    },
+    {
+      "externalReferenceCode": "critical-priority",
+      "key": "critical",
+      "name": "Critical",
+      "name_i18n": {
+        "en-US": "Critical"
+      },
+      "type": ""
+    },
+    {
+      "externalReferenceCode": "unassigned-priority",
+      "key": "unassigned",
+      "name": "Unassigned",
+      "name_i18n": {
+        "en-US": "Unassigned"
+      },
+      "type": ""
+    }
+  ],
+  "name": "Ticket Priorities",
+  "name_i18n": {
+    "en-US": "Ticket Priorities"
+  }
+}

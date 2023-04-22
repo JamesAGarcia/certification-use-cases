@@ -1,81 +1,81 @@
 {
-    "externalReferenceCode": "list-ticket-types",
-    "listTypeEntries": [
-        {
-            "externalReferenceCode": "application-type",
-            "key": "application",
-            "name": "Application",
-            "name_i18n": {
-                "en-US": "Application"
-            },
-            "type": ""
-        },
-        {
-            "externalReferenceCode": "credit-limit-type",
-            "key": "creditLimitIncrease",
-            "name": "Credit Limit Increase",
-            "name_i18n": {
-                "en-US": "Credit Limit Increase"
-            },
-            "type": ""
-        },
-        {
-            "externalReferenceCode": "account-issue-type",
-            "key": "accountIssue",
-            "name": "Account Issue",
-            "name_i18n": {
-                "en-US": "Account Issue"
-            },
-            "type": ""
-        },
-        {
-            "externalReferenceCode": "product-issue-type",
-            "key": "productIssue",
-            "name": "Product Issue",
-            "name_i18n": {
-                "en-US": "Product Issue"
-            },
-            "type": ""
-        },
-        {
-            "externalReferenceCode": "order-issue-type",
-            "key": "orderIssue",
-            "name": "Order Issue",
-            "name_i18n": {
-                "en-US": "Order Issue"
-            },
-            "type": ""
-        },
-        {
-            "externalReferenceCode": "delivery-issue-type",
-            "key": "deliveryIssue",
-            "name": "Delivery Issue",
-            "name_i18n": {
-                "en-US": "Delivery Issue"
-            },
-            "type": ""
-        },
-        {
-            "externalReferenceCode": "site-issue-type",
-            "key": "siteIssue",
-            "name": "Site Issue",
-            "name_i18n": {
-                "en-US": "Site Issue"
-            },
-            "type": ""
-        },
-        {
-            "externalReferenceCode": "other-type",
-            "key": "other",
-            "name": "Other",
-            "name_i18n": {
-                "en-US": "Other"
-            },
-            "type": ""
-        }
-    ],
-    "name": "Ticket Types",
-    "name_i18n": {
-        "en-US": "Ticket Types"
+  "externalReferenceCode": "list-ticket-types",
+  "listTypeEntries": [
+    {
+      "externalReferenceCode": "application-type",
+      "key": "application",
+      "name": "Application",
+      "name_i18n": {
+        "en-US": "Application"
+      },
+      "type": ""
+    },
+    {
+      "externalReferenceCode": "credit-limit-type",
+      "key": "creditLimitIncrease",
+      "name": "Credit Limit Increase",
+      "name_i18n": {
+        "en-US": "Credit Limit Increase"
+      },
+      "type": ""
+    },
+    {
+      "externalReferenceCode": "account-issue-type",
+      "key": "accountIssue",
+      "name": "Account Issue",
+      "name_i18n": {
+        "en-US": "Account Issue"
+      },
+      "type": ""
+    },
+    {
+      "externalReferenceCode": "product-issue-type",
+      "key": "productIssue",
+      "name": "Product Issue",
+      "name_i18n": {
+        "en-US": "Product Issue"
+      },
+      "type": ""
+    },
+    {
+      "externalReferenceCode": "order-issue-type",
+      "key": "orderIssue",
+      "name": "Order Issue",
+      "name_i18n": {
+        "en-US": "Order Issue"
+      },
+      "type": ""
+    },
+    {
+      "externalReferenceCode": "delivery-issue-type",
+      "key": "deliveryIssue",
+      "name": "Delivery Issue",
+      "name_i18n": {
+        "en-US": "Delivery Issue"
+      },
+      "type": ""
+    },
+    {
+      "externalReferenceCode": "site-issue-type",
+      "key": "siteIssue",
+      "name": "Site Issue",
+      "name_i18n": {
+        "en-US": "Site Issue"
+      },
+      "type": ""
+    },
+    {
+      "externalReferenceCode": "other-type",
+      "key": "other",
+      "name": "Other",
+      "name_i18n": {
+        "en-US": "Other"
+      },
+      "type": ""
     }
+  ],
+  "name": "Ticket Types",
+  "name_i18n": {
+    "en-US": "Ticket Types"
+  }
 }
