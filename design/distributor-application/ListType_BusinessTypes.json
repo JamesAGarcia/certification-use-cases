@@ -1,0 +1,36 @@
+{
+  "externalReferenceCode": "LIST_BUSINESS_TYPES",
+  "listTypeEntries": [
+    {
+      "externalReferenceCode": "BUSINESS_TYPE_INDEPENDENT_BUSINESS",
+      "key": "independentBusiness",
+      "name": "Independent Business",
+      "name_i18n": {
+        "en-US": "Independent Business"
+      },
+      "type": ""
+    },
+    {
+      "externalReferenceCode": "BUSINESS_TYPE_FRANCHISE",
+      "key": "franchise",
+      "name": "Franchise",
+      "name_i18n": {
+        "en-US": "Franchise"
+      },
+      "type": ""
+    },
+    {
+      "externalReferenceCode": "BUSINESS_TYPE_OTHER",
+      "key": "other",
+      "name": "Other",
+      "name_i18n": {
+        "en-US": "Other"
+      },
+      "type": ""
+    }
+  ],
+  "name": "Business Types",
+  "name_i18n": {
+    "en-US": "Business Types"
+  }
+}
