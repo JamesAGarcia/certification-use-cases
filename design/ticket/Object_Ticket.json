@@ -1,0 +1,660 @@
+{
+    "accountEntryRestricted": true,
+    "accountEntryRestrictedObjectFieldName": "r_accountToTickets_accountEntryId",
+    "actions": {
+        "delete": {},
+        "get": {},
+        "permissions": {},
+        "publish": {},
+        "update": {}
+    },
+    "active": false,
+    "defaultLanguageId": "en_US",
+    "enableCategorization": true,
+    "enableComments": true,
+    "enableObjectEntryHistory": true,
+    "externalReferenceCode": "C_TICKET",
+    "label": {
+        "en_US": "Ticket"
+    },
+    "name": "Ticket",
+    "objectActions": [],
+    "objectFields": [
+        {
+            "DBType": "Long",
+            "businessType": "Attachment",
+            "externalReferenceCode": "d4ada6f2-d1d4-bce9-8725-f38638dac071",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "en_US",
+            "label": {
+                "en_US": "Attachment"
+            },
+            "name": "attachment",
+            "objectFieldSettings": [
+                {
+                    "name": "acceptedFileExtensions",
+                    "value": "jpeg, jpg, pdf, png"
+                },
+                {
+                    "name": "maximumFileSize",
+                    "value": "100"
+                },
+                {
+                    "name": "fileSource",
+                    "value": "userComputer"
+                },
+                {
+                    "name": "showFilesInDocumentsAndMedia",
+                    "value": "true"
+                },
+                {
+                    "name": "storageDLFolderPath",
+                    "value": "/Ticket"
+                }
+            ],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "Long"
+        },
+        {
+            "DBType": "Date",
+            "businessType": "Date",
+            "externalReferenceCode": "d7f93073-e92e-fc20-35b5-d7ed9ffa1355",
+            "indexed": false,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "",
+            "label": {
+                "en_US": "Create Date"
+            },
+            "name": "createDate",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": true,
+            "type": "Date"
+        },
+        {
+            "DBType": "String",
+            "businessType": "Text",
+            "externalReferenceCode": "6de75d4c-1513-a3c2-859d-a42c4a1496d0",
+            "indexed": false,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "",
+            "label": {
+                "en_US": "Author"
+            },
+            "name": "creator",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": true,
+            "type": "String"
+        },
+        {
+            "DBType": "Clob",
+            "businessType": "RichText",
+            "externalReferenceCode": "1e40d57d-84ca-a929-d540-156357c3ed00",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "en_US",
+            "label": {
+                "en_US": "Description"
+            },
+            "name": "description",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "Clob"
+        },
+        {
+            "DBType": "String",
+            "businessType": "Text",
+            "externalReferenceCode": "f026c2e2-68a5-122e-83e1-3de16797b2e9",
+            "indexed": false,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "",
+            "label": {
+                "en_US": "External Reference Code"
+            },
+            "name": "externalReferenceCode",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": true,
+            "type": "String"
+        },
+        {
+            "DBType": "Long",
+            "businessType": "LongInteger",
+            "externalReferenceCode": "becf3921-b673-7d9f-000c-f0588ffed514",
+            "indexed": true,
+            "indexedAsKeyword": true,
+            "indexedLanguageId": "",
+            "label": {
+                "en_US": "ID"
+            },
+            "name": "id",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": true,
+            "type": "Long"
+        },
+        {
+            "DBType": "Date",
+            "businessType": "Date",
+            "externalReferenceCode": "cc82f7ad-ea2a-70a5-dc98-9c3bcc34c3c6",
+            "indexed": false,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "",
+            "label": {
+                "en_US": "Modified Date"
+            },
+            "name": "modifiedDate",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": true,
+            "type": "Date"
+        },
+        {
+            "DBType": "String",
+            "businessType": "Picklist",
+            "externalReferenceCode": "e76c634b-0b52-1ef8-f22c-cc39c0f988c8",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "en_US",
+            "label": {
+                "en_US": "Priority"
+            },
+            "listTypeDefinitionExternalReferenceCode": "LIST_TICKET_PRIORITIES",
+            "name": "priority",
+            "objectFieldSettings": [],
+            "required": true,
+            "state": false,
+            "system": false,
+            "type": "String"
+        },
+        {
+            "DBType": "String",
+            "businessType": "Picklist",
+            "externalReferenceCode": "1a2dcd54-8a82-df4c-7617-3c6e67180eea",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "en_US",
+            "label": {
+                "en_US": "Resolution"
+            },
+            "listTypeDefinitionExternalReferenceCode": "LIST_TICKET_RESOLUTIONS",
+            "name": "resolution",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "String"
+        },
+        {
+            "DBType": "String",
+            "businessType": "Text",
+            "externalReferenceCode": "3d88508b-ca39-d753-9714-49dc08849944",
+            "indexed": false,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "",
+            "label": {
+                "en_US": "Status"
+            },
+            "name": "status",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": true,
+            "type": "String"
+        },
+        {
+            "DBType": "String",
+            "businessType": "Text",
+            "externalReferenceCode": "7c87a3b1-7213-2475-2530-e2815305a62a",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "en_US",
+            "label": {
+                "en_US": "Subject"
+            },
+            "name": "subject",
+            "objectFieldSettings": [],
+            "required": true,
+            "state": false,
+            "system": false,
+            "type": "String"
+        },
+        {
+            "DBType": "String",
+            "businessType": "Picklist",
+            "externalReferenceCode": "61314263-1234-9c0d-2489-07fb5d5648ac",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "en_US",
+            "label": {
+                "en_US": "Support Region"
+            },
+            "listTypeDefinitionExternalReferenceCode": "LIST_TICKET_REGIONS",
+            "name": "supportRegion",
+            "objectFieldSettings": [],
+            "required": true,
+            "state": false,
+            "system": false,
+            "type": "String"
+        },
+        {
+            "DBType": "String",
+            "businessType": "Picklist",
+            "defaultValue": "open",
+            "externalReferenceCode": "0a0699b4-c59a-f50c-ed52-046ebca1b804",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "en_US",
+            "label": {
+                "en_US": "Ticket Status"
+            },
+            "listTypeDefinitionExternalReferenceCode": "LIST_TICKET_STATUSES",
+            "name": "ticketStatus",
+            "objectFieldSettings": [
+                {
+                    "name": "stateFlow",
+                    "value": {
+                        "objectStates": [
+                            {
+                                "key": "open",
+                                "objectStateTransitions": [
+                                    {
+                                        "key": "verifying"
+                                    },
+                                    {
+                                        "key": "queued"
+                                    },
+                                    {
+                                        "key": "inProgress"
+                                    },
+                                    {
+                                        "key": "answered"
+                                    },
+                                    {
+                                        "key": "escalated"
+                                    },
+                                    {
+                                        "key": "inReview"
+                                    },
+                                    {
+                                        "key": "waiting"
+                                    },
+                                    {
+                                        "key": "closed"
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "verifying",
+                                "objectStateTransitions": [
+                                    {
+                                        "key": "open"
+                                    },
+                                    {
+                                        "key": "queued"
+                                    },
+                                    {
+                                        "key": "inProgress"
+                                    },
+                                    {
+                                        "key": "answered"
+                                    },
+                                    {
+                                        "key": "escalated"
+                                    },
+                                    {
+                                        "key": "inReview"
+                                    },
+                                    {
+                                        "key": "waiting"
+                                    },
+                                    {
+                                        "key": "closed"
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "queued",
+                                "objectStateTransitions": [
+                                    {
+                                        "key": "open"
+                                    },
+                                    {
+                                        "key": "verifying"
+                                    },
+                                    {
+                                        "key": "inProgress"
+                                    },
+                                    {
+                                        "key": "answered"
+                                    },
+                                    {
+                                        "key": "escalated"
+                                    },
+                                    {
+                                        "key": "inReview"
+                                    },
+                                    {
+                                        "key": "waiting"
+                                    },
+                                    {
+                                        "key": "closed"
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "inProgress",
+                                "objectStateTransitions": [
+                                    {
+                                        "key": "open"
+                                    },
+                                    {
+                                        "key": "verifying"
+                                    },
+                                    {
+                                        "key": "queued"
+                                    },
+                                    {
+                                        "key": "answered"
+                                    },
+                                    {
+                                        "key": "escalated"
+                                    },
+                                    {
+                                        "key": "inReview"
+                                    },
+                                    {
+                                        "key": "waiting"
+                                    },
+                                    {
+                                        "key": "closed"
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "answered",
+                                "objectStateTransitions": [
+                                    {
+                                        "key": "open"
+                                    },
+                                    {
+                                        "key": "verifying"
+                                    },
+                                    {
+                                        "key": "queued"
+                                    },
+                                    {
+                                        "key": "inProgress"
+                                    },
+                                    {
+                                        "key": "escalated"
+                                    },
+                                    {
+                                        "key": "inReview"
+                                    },
+                                    {
+                                        "key": "waiting"
+                                    },
+                                    {
+                                        "key": "closed"
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "escalated",
+                                "objectStateTransitions": [
+                                    {
+                                        "key": "open"
+                                    },
+                                    {
+                                        "key": "verifying"
+                                    },
+                                    {
+                                        "key": "queued"
+                                    },
+                                    {
+                                        "key": "inProgress"
+                                    },
+                                    {
+                                        "key": "answered"
+                                    },
+                                    {
+                                        "key": "inReview"
+                                    },
+                                    {
+                                        "key": "waiting"
+                                    },
+                                    {
+                                        "key": "closed"
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "inReview",
+                                "objectStateTransitions": [
+                                    {
+                                        "key": "open"
+                                    },
+                                    {
+                                        "key": "verifying"
+                                    },
+                                    {
+                                        "key": "queued"
+                                    },
+                                    {
+                                        "key": "inProgress"
+                                    },
+                                    {
+                                        "key": "answered"
+                                    },
+                                    {
+                                        "key": "escalated"
+                                    },
+                                    {
+                                        "key": "waiting"
+                                    },
+                                    {
+                                        "key": "closed"
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "waiting",
+                                "objectStateTransitions": [
+                                    {
+                                        "key": "open"
+                                    },
+                                    {
+                                        "key": "verifying"
+                                    },
+                                    {
+                                        "key": "queued"
+                                    },
+                                    {
+                                        "key": "inProgress"
+                                    },
+                                    {
+                                        "key": "answered"
+                                    },
+                                    {
+                                        "key": "escalated"
+                                    },
+                                    {
+                                        "key": "inReview"
+                                    },
+                                    {
+                                        "key": "closed"
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "closed",
+                                "objectStateTransitions": [
+                                    {
+                                        "key": "open"
+                                    },
+                                    {
+                                        "key": "verifying"
+                                    },
+                                    {
+                                        "key": "queued"
+                                    },
+                                    {
+                                        "key": "inProgress"
+                                    },
+                                    {
+                                        "key": "answered"
+                                    },
+                                    {
+                                        "key": "escalated"
+                                    },
+                                    {
+                                        "key": "inReview"
+                                    },
+                                    {
+                                        "key": "waiting"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ],
+            "required": true,
+            "state": true,
+            "system": false,
+            "type": "String"
+        },
+        {
+            "DBType": "String",
+            "businessType": "Picklist",
+            "externalReferenceCode": "e2246594-ec9c-8ae6-d803-5df513cb6c89",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "en_US",
+            "label": {
+                "en_US": "Type"
+            },
+            "listTypeDefinitionExternalReferenceCode": "LIST_TICKET_TYPES",
+            "name": "type",
+            "objectFieldSettings": [],
+            "required": true,
+            "state": false,
+            "system": false,
+            "type": "String"
+        }
+    ],
+    "objectLayouts": [],
+    "objectRelationships": [
+        {
+            "deletionType": "prevent",
+            "label": {
+                "en_US": "Related Tickets"
+            },
+            "name": "relatedTickets",
+            "objectDefinitionExternalReferenceCode1": "C_TICKET",
+            "objectDefinitionExternalReferenceCode2": "C_TICKET",
+            "objectDefinitionName2": "Ticket",
+            "parameterObjectFieldId": 0,
+            "parameterObjectFieldName": "",
+            "reverse": false,
+            "type": "manyToMany"
+        },
+        {
+            "deletionType": "prevent",
+            "label": {
+                "en_US": "Related Tickets"
+            },
+            "name": "relatedTickets",
+            "objectDefinitionExternalReferenceCode1": "C_TICKET",
+            "objectDefinitionExternalReferenceCode2": "C_TICKET",
+            "objectDefinitionName2": "Ticket",
+            "parameterObjectFieldId": 0,
+            "parameterObjectFieldName": "",
+            "reverse": true,
+            "type": "manyToMany"
+        },
+        {
+            "deletionType": "prevent",
+            "label": {
+                "en_US": "Watchers"
+            },
+            "name": "watchers",
+            "objectDefinitionExternalReferenceCode1": "C_TICKET",
+            "objectDefinitionExternalReferenceCode2": "a8c95d2e-1ff3-eb40-2de2-a47d90df5a49",
+            "objectDefinitionName2": "User",
+            "parameterObjectFieldId": 0,
+            "parameterObjectFieldName": "",
+            "reverse": false,
+            "type": "manyToMany"
+        },
+        {
+            "deletionType": "prevent",
+            "label": {
+                "en_US": "Tickets to Orders"
+            },
+            "name": "ticketsToOrders",
+            "objectDefinitionExternalReferenceCode1": "C_TICKET",
+            "objectDefinitionExternalReferenceCode2": "592d4aa4-933b-e25c-0180-d1cbdf554f61",
+            "objectDefinitionName2": "CommerceOrder",
+            "parameterObjectFieldId": 0,
+            "parameterObjectFieldName": "",
+            "reverse": false,
+            "type": "manyToMany"
+        },
+        {
+            "deletionType": "prevent",
+            "label": {
+                "en_US": "Tickets to Products"
+            },
+            "name": "ticketsToProducts",
+            "objectDefinitionExternalReferenceCode1": "C_TICKET",
+            "objectDefinitionExternalReferenceCode2": "3bdbaf45-24f7-8b01-6eec-d64b6fa7e3f4",
+            "objectDefinitionName2": "CPDefinition",
+            "parameterObjectFieldId": 0,
+            "parameterObjectFieldName": "",
+            "reverse": false,
+            "type": "manyToMany"
+        }
+    ],
+    "objectValidationRules": [
+        {
+            "active": false,
+            "engine": "ddm",
+            "engineLabel": "Expression Builder",
+            "errorLabel": {},
+            "name": {
+                "en_US": "Valid Ticket Resolution"
+            },
+            "objectDefinitionExternalReferenceCode": "C_TICKET",
+            "script": "script_placeholder"
+        }
+    ],
+    "objectViews": [],
+    "panelCategoryKey": "control_panel.object",
+    "parameterRequired": false,
+    "pluralLabel": {
+        "en_US": "Tickets"
+    },
+    "portlet": true,
+    "restContextPath": "/o/c/tickets",
+    "scope": "company",
+    "status": {
+        "code": 2,
+        "label": "draft",
+        "label_i18n": "Draft"
+    },
+    "system": false,
+    "titleObjectFieldName": "id"
+}
