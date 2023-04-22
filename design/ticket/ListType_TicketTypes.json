@@ -1,5 +1,5 @@
 {
-  "externalReferenceCode": "list-ticket-types",
+  "externalReferenceCode": "LIST_TICKET_TYPES",
   "listTypeEntries": [
     {
       "externalReferenceCode": "application-type",

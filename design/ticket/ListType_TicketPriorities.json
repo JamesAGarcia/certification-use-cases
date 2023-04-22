@@ -1,5 +1,5 @@
 {
-  "externalReferenceCode": "list-ticket-priorities",
+  "externalReferenceCode": "LIST_TICKET_PRIORITIES",
   "listTypeEntries": [
     {
       "externalReferenceCode": "minor-priority",

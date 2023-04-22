@@ -1,5 +1,5 @@
 {
-  "externalReferenceCode": "list-ticket-statuses",
+  "externalReferenceCode": "LIST_TICKET_STATUSES",
   "listTypeEntries": [
     {
       "externalReferenceCode": "open-status",
