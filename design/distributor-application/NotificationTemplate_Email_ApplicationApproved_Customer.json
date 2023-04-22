@@ -2,12 +2,12 @@
   "attachmentObjectFieldExternalReferenceCodes": [],
   "attachmentObjectFieldIds": [],
   "body": {},
-  "description": "Sends email notifications to an administrative role whenever a new ticket is created.",
+  "description": "Sends email notification to users when their distributor application is approved.",
   "editorType": "richText",
-  "externalReferenceCode": "TICKET_CREATED_ADMIN_EMAIL",
-  "name": "Email_TicketCreated_Admin",
+  "externalReferenceCode": "DISTRIBUTOR_APPLICATION_APPROVED_CUSTOMER_EMAIL",
+  "name": "Email_ApplicationApproved_Customer",
   "name_i18n": {
-    "en_US": "Email_TicketCreated_Admin"
+    "en_US": "Email_ApplicationApproved_Customer"
   },
   "objectDefinitionExternalReferenceCode": "",
   "objectDefinitionId": 0,
@@ -21,12 +21,12 @@
       },
       "from": "learn@liferay.com",
       "to": {
-        "en_US": "admin@liferay.com"
+        "en_US": "[%DISTRIBUTORAPPLICATION_APPLICANTEMAIL%]"
       }
     }
   ],
   "subject": {
-    "en_US": "Ticket [%TICKET_ID%] was created."
+    "en_US": "Your application was approved!"
   },
   "type": "email",
   "typeLabel": "Email"

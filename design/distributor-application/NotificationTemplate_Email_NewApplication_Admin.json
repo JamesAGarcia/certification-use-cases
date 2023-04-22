@@ -2,12 +2,12 @@
   "attachmentObjectFieldExternalReferenceCodes": [],
   "attachmentObjectFieldIds": [],
   "body": {},
-  "description": "Sends email notifications to an administrative role whenever a new ticket is created.",
+  "description": "Sends email notifications to an administrative role whenever a new distributor application is submitted.",
   "editorType": "richText",
-  "externalReferenceCode": "TICKET_CREATED_ADMIN_EMAIL",
-  "name": "Email_TicketCreated_Admin",
+  "externalReferenceCode": "DISTRIBUTOR_APPLICATION_CREATED_ADMIN_EMAIL",
+  "name": "Email_ApplicationCreated_Admin",
   "name_i18n": {
-    "en_US": "Email_TicketCreated_Admin"
+    "en_US": "Email_ApplicationCreated_Admin"
   },
   "objectDefinitionExternalReferenceCode": "",
   "objectDefinitionId": 0,
@@ -26,7 +26,7 @@
     }
   ],
   "subject": {
-    "en_US": "Ticket [%TICKET_ID%] was created."
+    "en_US": "New Distributor Application"
   },
   "type": "email",
   "typeLabel": "Email"

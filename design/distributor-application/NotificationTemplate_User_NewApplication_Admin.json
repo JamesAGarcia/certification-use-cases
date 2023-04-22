@@ -2,12 +2,12 @@
   "attachmentObjectFieldExternalReferenceCodes": [],
   "attachmentObjectFieldIds": [],
   "body": {},
-  "description": "Sends user notifications to an administrative role whenever a new ticket is created.",
+  "description": "Sends user notifications to an administrative role whenever a new distributor application is submitted.",
   "editorType": "richText",
-  "externalReferenceCode": "TICKET_CREATED_ADMIN_USER",
-  "name": "User_TicketCreated_Admin",
+  "externalReferenceCode": "DISTRIBUTOR_APPLICATION_CREATED_ADMIN_USER",
+  "name": "User_ApplicationCreated_Admin",
   "name_i18n": {
-    "en_US": "User_TicketCreated_Admin"
+    "en_US": "User_ApplicationCreated_Admin"
   },
   "objectDefinitionExternalReferenceCode": "",
   "objectDefinitionId": 0,
@@ -18,7 +18,7 @@
     }
   ],
   "subject": {
-    "en_US": "Ticket [%TICKET_ID%] was created."
+    "en_US": "A new distributor application has been submitted."
   },
   "type": "userNotification",
   "typeLabel": "User Notification"
