@@ -2,7 +2,7 @@
   "externalReferenceCode": "LIST_TICKET_TYPES",
   "listTypeEntries": [
     {
-      "externalReferenceCode": "application-type",
+      "externalReferenceCode": "APPLICATION_TYPE",
       "key": "application",
       "name": "Application",
       "name_i18n": {
@@ -11,7 +11,7 @@
       "type": ""
     },
     {
-      "externalReferenceCode": "credit-limit-type",
+      "externalReferenceCode": "CREDIT_LIMIT_TYPE",
       "key": "creditLimitIncrease",
       "name": "Credit Limit Increase",
       "name_i18n": {
@@ -20,7 +20,7 @@
       "type": ""
     },
     {
-      "externalReferenceCode": "account-issue-type",
+      "externalReferenceCode": "ACCOUNT_ISSUE_TYPE",
       "key": "accountIssue",
       "name": "Account Issue",
       "name_i18n": {
@@ -29,7 +29,7 @@
       "type": ""
     },
     {
-      "externalReferenceCode": "product-issue-type",
+      "externalReferenceCode": "PRODUCT_ISSUE_TYPE",
       "key": "productIssue",
       "name": "Product Issue",
       "name_i18n": {
@@ -38,7 +38,7 @@
       "type": ""
     },
     {
-      "externalReferenceCode": "order-issue-type",
+      "externalReferenceCode": "ORDER_ISSUE_TYPE",
       "key": "orderIssue",
       "name": "Order Issue",
       "name_i18n": {
@@ -47,7 +47,7 @@
       "type": ""
     },
     {
-      "externalReferenceCode": "delivery-issue-type",
+      "externalReferenceCode": "DELIVERY_ISSUE_TYPE",
       "key": "deliveryIssue",
       "name": "Delivery Issue",
       "name_i18n": {
@@ -56,7 +56,7 @@
       "type": ""
     },
     {
-      "externalReferenceCode": "site-issue-type",
+      "externalReferenceCode": "SITE_ISSUE_TYPE",
       "key": "siteIssue",
       "name": "Site Issue",
       "name_i18n": {
@@ -65,7 +65,7 @@
       "type": ""
     },
     {
-      "externalReferenceCode": "other-type",
+      "externalReferenceCode": "OTHER_TYPE",
       "key": "other",
       "name": "Other",
       "name_i18n": {

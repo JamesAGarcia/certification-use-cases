@@ -2,7 +2,7 @@
   "externalReferenceCode": "LIST_TICKET_REGIONS",
   "listTypeEntries": [
     {
-      "externalReferenceCode": "noram-region",
+      "externalReferenceCode": "NORAM_REGION",
       "key": "nORAM",
       "name": "NORAM",
       "name_i18n": {
@@ -11,7 +11,7 @@
       "type": ""
     },
     {
-      "externalReferenceCode": "latam-region",
+      "externalReferenceCode": "LATAM_REGION",
       "key": "lATAM",
       "name": "LATAM",
       "name_i18n": {
@@ -20,7 +20,7 @@
       "type": ""
     },
     {
-      "externalReferenceCode": "emea-region",
+      "externalReferenceCode": "EMEA_REGION",
       "key": "eMEA",
       "name": "EMEA",
       "name_i18n": {
@@ -29,7 +29,7 @@
       "type": ""
     },
     {
-      "externalReferenceCode": "apac-region",
+      "externalReferenceCode": "APAC_REGION",
       "key": "aPAC",
       "name": "APAC",
       "name_i18n": {

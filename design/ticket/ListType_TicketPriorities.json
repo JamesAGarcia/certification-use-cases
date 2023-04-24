@@ -2,7 +2,7 @@
   "externalReferenceCode": "LIST_TICKET_PRIORITIES",
   "listTypeEntries": [
     {
-      "externalReferenceCode": "minor-priority",
+      "externalReferenceCode": "MINOR_PRIORITY",
       "key": "minor",
       "name": "Minor",
       "name_i18n": {
@@ -11,7 +11,7 @@
       "type": ""
     },
     {
-      "externalReferenceCode": "moderate-priority",
+      "externalReferenceCode": "MODERATE_PRIORITY",
       "key": "moderate",
       "name": "Moderate",
       "name_i18n": {
@@ -20,7 +20,7 @@
       "type": ""
     },
     {
-      "externalReferenceCode": "major-priority",
+      "externalReferenceCode": "MAJOR_PRIORITY",
       "key": "major",
       "name": "Major",
       "name_i18n": {
@@ -29,7 +29,7 @@
       "type": ""
     },
     {
-      "externalReferenceCode": "critical-priority",
+      "externalReferenceCode": "CRITICAL_PRIORITY",
       "key": "critical",
       "name": "Critical",
       "name_i18n": {
@@ -38,7 +38,7 @@
       "type": ""
     },
     {
-      "externalReferenceCode": "unassigned-priority",
+      "externalReferenceCode": "UNASSIGNED_PRIORITY",
       "key": "unassigned",
       "name": "Unassigned",
       "name_i18n": {

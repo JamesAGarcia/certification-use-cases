@@ -2,7 +2,7 @@
   "externalReferenceCode": "LIST_TICKET_STATUSES",
   "listTypeEntries": [
     {
-      "externalReferenceCode": "open-status",
+      "externalReferenceCode": "OPEN_STATUS",
       "key": "open",
       "name": "Open",
       "name_i18n": {
@@ -11,7 +11,7 @@
       "type": ""
     },
     {
-      "externalReferenceCode": "verifying-status",
+      "externalReferenceCode": "VERIFYING_STATUS",
       "key": "verifying",
       "name": "Verifying",
       "name_i18n": {
@@ -20,7 +20,7 @@
       "type": ""
     },
     {
-      "externalReferenceCode": "queued-status",
+      "externalReferenceCode": "QUEUED_STATUS",
       "key": "queued",
       "name": "Queued",
       "name_i18n": {
@@ -29,7 +29,7 @@
       "type": ""
     },
     {
-      "externalReferenceCode": "in-progress-status",
+      "externalReferenceCode": "IN_PROGRESS_STATUS",
       "key": "inProgress",
       "name": "In Progress",
       "name_i18n": {
@@ -38,7 +38,7 @@
       "type": ""
     },
     {
-      "externalReferenceCode": "answered-status",
+      "externalReferenceCode": "ANSWERED_STATUS",
       "key": "answered",
       "name": "Answered",
       "name_i18n": {
@@ -47,7 +47,7 @@
       "type": ""
     },
     {
-      "externalReferenceCode": "escalated-status",
+      "externalReferenceCode": "ESCALATED_STATUS",
       "key": "escalated",
       "name": "Escalated",
       "name_i18n": {
@@ -56,7 +56,7 @@
       "type": ""
     },
     {
-      "externalReferenceCode": "in-review-status",
+      "externalReferenceCode": "IN_REVIEW_STATUS",
       "key": "inReview",
       "name": "In Review",
       "name_i18n": {
@@ -65,7 +65,7 @@
       "type": ""
     },
     {
-      "externalReferenceCode": "waiting-status",
+      "externalReferenceCode": "WAITING_STATUS",
       "key": "waiting",
       "name": "Waiting",
       "name_i18n": {
@@ -74,7 +74,7 @@
       "type": ""
     },
     {
-      "externalReferenceCode": "closed-status",
+      "externalReferenceCode": "CLOSED_STATUS",
       "key": "closed",
       "name": "Closed",
       "name_i18n": {
