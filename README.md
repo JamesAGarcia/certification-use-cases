@@ -32,6 +32,8 @@ So far, these are the ideas I have for how to use client extensions:
 
   * Verify Identity and Check Credit (ActionType): Create a custom action for making API calls to verify identity and check credit (per KYC/KYB and AML laws). (These services have well documented APIs for this type of integration: [Trulioo](https://developer.trulioo.com/), [FullCircl](https://www.fullcircl.com/using-fullcircl/fullcircl-api-overview-guide) [previously [DueDil](https://app.duedil.com/api/docs)], and [Comply Advantage](https://docs.complyadvantage.com/#introduction)).
 
+  * Weighing Application Priority (ActionType): Create a custom action that weighs applications by their distribution regions (`distributionRegions`) and estimated annual purchase volume (`estimatedAnnualPurchaseVolume`); once weighed, applications with higher scores should be given higher priority in the Ticket application (`priority`).
+
 * Frontend Client Extensions:
 
   * Ticket Creation Form: Make a ticket creation form that populates fields based on the chosen ticket type.
