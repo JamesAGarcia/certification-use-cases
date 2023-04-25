@@ -39,3 +39,5 @@ So far, these are the ideas I have for how to use client extensions:
   * Ticket Creation Form: Make a ticket creation form that populates fields based on the chosen ticket type.
 
   * Kanban Board: Create an administrative kanban board for managing tickets (e.g., [React Beautiful DnD](https://github.com/atlassian/react-beautiful-dnd)).
+
+  * Application Tabs: Create a form that has tabs and a progress bar for people filling out a distributor application.
