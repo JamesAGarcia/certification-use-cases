@@ -72,14 +72,14 @@ curl \
   -H "Content-Type: application/json" \
   -X POST \
   "http://localhost:8080/o/object-admin/v1.0/object-definitions/by-external-reference-code/C_TICKET/object-actions" \
-  -d "{\"active\":true,\"conditionExpression\":\"r_userToTicketsAssignee_userId != oldValue(\\"r_userToTicketsAssignee_userId\\")\",\"description\":\"\",\"errorMessage\":{},\"label\":{\"en_US\":\"Ticket Assigned, Email Notification, Assignee\"},\"name\":\"ticketAssignedEmailNotificationAssignee\",\"objectActionExecutorKey\":\"notification\",\"objectActionTriggerKey\":\"onAfterUpdate\",\"parameters\":{\"notificationTemplateExternalReferenceCode\":\"TICKET_ASSIGNED_ASSIGNEE_EMAIL\",\"type\":\"email\"}}" \
+  -d "{\"active\":true,\"conditionExpression\":\"\",\"description\":\"\",\"errorMessage\":{},\"label\":{\"en_US\":\"Ticket Assigned, Email Notification, Assignee\"},\"name\":\"ticketAssignedEmailNotificationAssignee\",\"objectActionExecutorKey\":\"notification\",\"objectActionTriggerKey\":\"onAfterUpdate\",\"parameters\":{\"notificationTemplateExternalReferenceCode\":\"TICKET_ASSIGNED_ASSIGNEE_EMAIL\",\"type\":\"email\"}}" \
   -u "test@liferay.com:a"
 
 curl \
   -H "Content-Type: application/json" \
   -X POST \
   "http://localhost:8080/o/object-admin/v1.0/object-definitions/by-external-reference-code/C_TICKET/object-actions" \
-  -d "{\"active\":true,\"conditionExpression\":\"r_userToTicketsAssignee_userId != oldValue(\\"r_userToTicketsAssignee_userId\\")\",\"description\":\"\",\"errorMessage\":{},\"label\":{\"en_US\":\"Ticket Assigned, User Notification, Assignee\"},\"name\":\"ticketAssignedUserNotificationAssignee\",\"objectActionExecutorKey\":\"notification\",\"objectActionTriggerKey\":\"onAfterUpdate\",\"parameters\":{\"notificationTemplateExternalReferenceCode\":\"TICKET_ASSIGNED_ASSIGNEE_USER\",\"type\":\"userNotification\"}}" \
+  -d "{\"active\":true,\"conditionExpression\":\"\",\"description\":\"\",\"errorMessage\":{},\"label\":{\"en_US\":\"Ticket Assigned, User Notification, Assignee\"},\"name\":\"ticketAssignedUserNotificationAssignee\",\"objectActionExecutorKey\":\"notification\",\"objectActionTriggerKey\":\"onAfterUpdate\",\"parameters\":{\"notificationTemplateExternalReferenceCode\":\"TICKET_ASSIGNED_ASSIGNEE_USER\",\"type\":\"userNotification\"}}" \
   -u "test@liferay.com:a"
 
 curl \
@@ -100,12 +100,12 @@ curl \
   -H "Content-Type: application/json" \
   -X POST \
   "http://localhost:8080/o/object-admin/v1.0/object-definitions/by-external-reference-code/C_TICKET/object-actions" \
-  -d "{\"active\":true,\"conditionExpression\":\"ticketStatus == \\"closed\\"\",\"description\":\"\",\"errorMessage\":{},\"label\":{\"en_US\":\"Ticket Resolved, Email Notification, Creator\"},\"name\":\"ticketResolvedEmailNotificationCreator\",\"objectActionExecutorKey\":\"notification\",\"objectActionTriggerKey\":\"onAfterUpdate\",\"parameters\":{\"notificationTemplateExternalReferenceCode\":\"TICKET_RESOLVED_CREATOR_EMAIL\",\"type\":\"email\"}}" \
+  -d "{\"active\":true,\"conditionExpression\":\"\",\"description\":\"\",\"errorMessage\":{},\"label\":{\"en_US\":\"Ticket Resolved, Email Notification, Creator\"},\"name\":\"ticketResolvedEmailNotificationCreator\",\"objectActionExecutorKey\":\"notification\",\"objectActionTriggerKey\":\"onAfterUpdate\",\"parameters\":{\"notificationTemplateExternalReferenceCode\":\"TICKET_RESOLVED_CREATOR_EMAIL\",\"type\":\"email\"}}" \
   -u "test@liferay.com:a"
 
 curl \
   -H "Content-Type: application/json" \
   -X POST \
   "http://localhost:8080/o/object-admin/v1.0/object-definitions/by-external-reference-code/C_TICKET/object-actions" \
-  -d "{\"active\":true,\"conditionExpression\":\"ticketStatus == \\"closed\\"\",\"description\":\"\",\"errorMessage\":{},\"label\":{\"en_US\":\"Ticket Resolved, User Notification, Creator\"},\"name\":\"ticketResolvedUserNotificationCreator\",\"objectActionExecutorKey\":\"notification\",\"objectActionTriggerKey\":\"onAfterUpdate\",\"parameters\":{\"notificationTemplateExternalReferenceCode\":\"TICKET_RESOLVED_CREATOR_USER\",\"type\":\"userNotification\"}}" \
+  -d "{\"active\":true,\"conditionExpression\":\"\",\"description\":\"\",\"errorMessage\":{},\"label\":{\"en_US\":\"Ticket Resolved, User Notification, Creator\"},\"name\":\"ticketResolvedUserNotificationCreator\",\"objectActionExecutorKey\":\"notification\",\"objectActionTriggerKey\":\"onAfterUpdate\",\"parameters\":{\"notificationTemplateExternalReferenceCode\":\"TICKET_RESOLVED_CREATOR_USER\",\"type\":\"userNotification\"}}" \
   -u "test@liferay.com:a"
