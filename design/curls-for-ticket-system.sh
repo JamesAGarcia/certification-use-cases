@@ -55,14 +55,14 @@ curl \
 curl \
   -H "Content-Type: application/json" \
   -X POST \
-  "http://localhost:8080/o/object-admin/v1.0/object-definitions/by-external-reference-code/C_TICKET/object-relationships" \
+  "http://localhost:8080/o/object-admin/v1.0/object-definitions/by-external-reference-code/S_ACCOUNT/object-relationships" \
   -d "{\"deletionType\":\"prevent\",\"label\":{\"en_US\":\"Account to Tickets, Restriction\"},\"name\":\"accountToTicketsRestriction\",\"objectDefinitionExternalReferenceCode1\":\"S_ACCOUNT\",\"objectDefinitionExternalReferenceCode2\":\"C_TICKET\",\"objectDefinitionName2\":\"Ticket\",\"parameterObjectFieldId\":0,\"parameterObjectFieldName\":\"\",\"reverse\":false,\"type\":\"oneToMany\"}" \
   -u "test@liferay.com:a"
 
 curl \
   -H "Content-Type: application/json" \
   -X POST \
-  "http://localhost:8080/o/object-admin/v1.0/object-definitions/by-external-reference-code/C_TICKET/object-relationships" \
+  "http://localhost:8080/o/object-admin/v1.0/object-definitions/by-external-reference-code/S_USER/object-relationships" \
   -d "{\"deletionType\":\"prevent\",\"label\":{\"en_US\":\"User to Tickets, Assignee\"},\"name\":\"userToTicketsAssignee\",\"objectDefinitionExternalReferenceCode1\":\"S_USER\",\"objectDefinitionExternalReferenceCode2\":\"C_TICKET\",\"objectDefinitionName2\":\"Ticket\",\"parameterObjectFieldId\":0,\"parameterObjectFieldName\":\"\",\"reverse\":false,\"type\":\"oneToMany\"}" \
   -u "test@liferay.com:a"
 
