@@ -1,1 +1,1390 @@
-{"enableComments":true,"objectRelationships":[{"parameterObjectFieldName":"","parameterObjectFieldId":0,"label":{"en_US":"Distributor Application to Tickets"},"reverse":false,"type":"oneToMany","name":"distributorApplicationToTickets","deletionType":"prevent","objectDefinitionExternalReferenceCode1":"C_DISTRIBUTOR_APPLICATION","objectDefinitionExternalReferenceCode2":"C_TICKET","objectDefinitionName2":"Ticket"}],"enableCategorization":true,"accountEntryRestrictedObjectFieldName":"","objectActions":[],"accountEntryRestricted":false,"externalReferenceCode":"C_DISTRIBUTOR_APPLICATION","objectFields":[{"indexed":true,"objectFieldSettings":[],"DBType":"BigDecimal","label":{"en_US":"Annual Revenue (in USD)"},"type":"BigDecimal","required":false,"externalReferenceCode":"0fdc9d61-5e7d-9605-97bc-e5d28a87ccbd","indexedAsKeyword":false,"system":false,"indexedLanguageId":"","name":"annualRevenue","state":false,"businessType":"PrecisionDecimal"},{"indexed":true,"objectFieldSettings":[],"DBType":"String","label":{"en_US":"Applicant Email"},"type":"String","required":true,"externalReferenceCode":"e590780f-a9b8-80d1-1dab-f5cf7b7e40b0","indexedAsKeyword":false,"system":false,"indexedLanguageId":"en_US","name":"applicantEmail","state":false,"businessType":"Text"},{"indexed":true,"objectFieldSettings":[],"DBType":"String","label":{"en_US":"Applicant Name"},"type":"String","required":true,"externalReferenceCode":"d4dc5809-99b9-3b6c-3155-9023bf3b4980","indexedAsKeyword":false,"system":false,"indexedLanguageId":"en_US","name":"applicantName","state":false,"businessType":"Text"},{"indexed":true,"objectFieldSettings":[],"DBType":"Date","label":{"en_US":"Application Date"},"type":"Date","required":true,"externalReferenceCode":"f6ef8ca1-b5f5-52b6-1d3a-e08796568a42","indexedAsKeyword":false,"system":false,"indexedLanguageId":"","name":"applicationDate","state":false,"businessType":"Date"},{"indexed":true,"objectFieldSettings":[],"DBType":"String","label":{"en_US":"Bank Account Number"},"type":"String","required":false,"externalReferenceCode":"f94523ad-b613-70d5-6048-73ca5ccc826c","indexedAsKeyword":false,"system":false,"indexedLanguageId":"en_US","name":"bankAccountNumber","state":false,"businessType":"Text"},{"indexed":true,"objectFieldSettings":[],"DBType":"String","label":{"en_US":"Bank Address Line One"},"type":"String","required":false,"externalReferenceCode":"7acb3fd4-3e8d-81a2-2ca3-ce58a4b8ebce","indexedAsKeyword":false,"system":false,"indexedLanguageId":"en_US","name":"bankAddressLineOne","state":false,"businessType":"Text"},{"indexed":true,"objectFieldSettings":[],"DBType":"String","label":{"en_US":"Bank Address Line Two"},"type":"String","required":false,"externalReferenceCode":"e3f4621d-b1cf-7e72-c90c-64cd49fa7c22","indexedAsKeyword":false,"system":false,"indexedLanguageId":"en_US","name":"bankAddressLineTwo","state":false,"businessType":"Text"},{"indexed":true,"objectFieldSettings":[],"DBType":"String","label":{"en_US":"Bank City"},"type":"String","required":false,"externalReferenceCode":"3cb5060d-ed6d-1510-0899-8ac17399b8f4","indexedAsKeyword":false,"system":false,"indexedLanguageId":"en_US","name":"bankCity","state":false,"businessType":"Text"},{"indexed":true,"objectFieldSettings":[],"DBType":"String","label":{"en_US":"Bank Country"},"type":"String","required":false,"externalReferenceCode":"c8268d73-9dbb-1d11-0e6f-8437c10eca6c","indexedAsKeyword":false,"system":false,"indexedLanguageId":"en_US","name":"bankCountry","state":false,"businessType":"Text"},{"indexed":true,"objectFieldSettings":[],"DBType":"String","label":{"en_US":"Bank Name"},"type":"String","required":false,"externalReferenceCode":"a3ebb708-d369-02c0-9baf-f041f9657b9c","indexedAsKeyword":false,"system":false,"indexedLanguageId":"en_US","name":"bankName","state":false,"businessType":"Text"},{"indexed":true,"objectFieldSettings":[],"DBType":"Integer","label":{"en_US":"Bank Phone Number"},"type":"Integer","required":false,"externalReferenceCode":"252a0d43-11eb-b9e0-42e4-97e1b2dce029","indexedAsKeyword":false,"system":false,"indexedLanguageId":"","name":"bankPhoneNumber","state":false,"businessType":"Integer"},{"indexed":true,"objectFieldSettings":[],"DBType":"String","label":{"en_US":"Bank State, Province, Region"},"type":"String","required":false,"externalReferenceCode":"8fcd146b-ef0b-a135-1e35-c7b0570a8f1a","indexedAsKeyword":false,"system":false,"indexedLanguageId":"en_US","name":"bankStateProvinceRegion","state":false,"businessType":"Text"},{"indexed":true,"objectFieldSettings":[],"DBType":"Integer","label":{"en_US":"Bank ZIP, Postal Code"},"type":"Integer","required":false,"externalReferenceCode":"730e6a54-65bd-5672-0455-9489d4c95302","indexedAsKeyword":false,"system":false,"indexedLanguageId":"","name":"bankZIPPostalCode","state":false,"businessType":"Integer"},{"indexed":true,"objectFieldSettings":[],"DBType":"String","label":{"en_US":"Billing Address Line Two"},"type":"String","required":false,"externalReferenceCode":"cdb4e816-8b41-994b-9014-208cc14a197b","indexedAsKeyword":false,"system":false,"indexedLanguageId":"en_US","name":"billingAddressLineTwo","state":false,"businessType":"Text"},{"indexed":true,"objectFieldSettings":[],"DBType":"String","label":{"en_US":"Billing City"},"type":"String","required":false,"externalReferenceCode":"d850c825-6af2-0025-681b-d4aa9a6a11f0","indexedAsKeyword":false,"system":false,"indexedLanguageId":"en_US","name":"billingCity","state":false,"businessType":"Text"},{"indexed":true,"objectFieldSettings":[],"DBType":"String","label":{"en_US":"Billing Country"},"type":"String","required":false,"externalReferenceCode":"12c83e2d-58b4-c413-0a59-3793fad4f414","indexedAsKeyword":false,"system":false,"indexedLanguageId":"en_US","name":"billingCountry","state":false,"businessType":"Text"},{"indexed":true,"objectFieldSettings":[],"DBType":"String","label":{"en_US":"Billing State, Province, Region"},"type":"String","required":false,"externalReferenceCode":"5934e43a-f4f0-ad95-840c-cd2cbd5dc6db","indexedAsKeyword":false,"system":false,"indexedLanguageId":"en_US","name":"billingStateProvinceRegion","state":false,"businessType":"Text"},{"indexed":true,"objectFieldSettings":[],"DBType":"String","label":{"en_US":"Billing Street Address"},"type":"String","required":false,"externalReferenceCode":"4567cd86-416b-d600-a9da-8e693d12ba0c","indexedAsKeyword":false,"system":false,"indexedLanguageId":"en_US","name":"billingStreetAddress","state":false,"businessType":"Text"},{"indexed":true,"objectFieldSettings":[],"DBType":"Integer","label":{"en_US":"Billing Zip, Postal Code"},"type":"Integer","required":false,"externalReferenceCode":"d2573707-e924-9263-1aec-efe6315c061f","indexedAsKeyword":false,"system":false,"indexedLanguageId":"","name":"billingZipPostalCode","state":false,"businessType":"Integer"},{"indexed":true,"objectFieldSettings":[],"DBType":"String","label":{"en_US":"Business Address Line One"},"type":"String","required":false,"externalReferenceCode":"0f84fbf5-10f2-cf17-ae3a-5997324028be","indexedAsKeyword":false,"system":false,"indexedLanguageId":"en_US","name":"businessAddressLineOne","state":false,"businessType":"Text"},{"indexed":true,"objectFieldSettings":[],"DBType":"String","label":{"en_US":"Business Address Line Two"},"type":"String","required":false,"externalReferenceCode":"b720f065-1b1f-0e92-0ee1-894d31a3a316","indexedAsKeyword":false,"system":false,"indexedLanguageId":"en_US","name":"businessAddressLineTwo","state":false,"businessType":"Text"},{"indexed":true,"objectFieldSettings":[],"DBType":"String","label":{"en_US":"Business City"},"type":"String","required":false,"externalReferenceCode":"7adbd2a1-c2c9-3ae4-7805-bb25cffaeda3","indexedAsKeyword":false,"system":false,"indexedLanguageId":"en_US","name":"businessCity","state":false,"businessType":"Text"},{"indexed":true,"objectFieldSettings":[],"DBType":"String","label":{"en_US":"Business Contact Email"},"type":"String","required":false,"externalReferenceCode":"022c6eb1-0218-2240-8930-0baffa435acd","indexedAsKeyword":false,"system":false,"indexedLanguageId":"en_US","name":"businessContactEmail","state":false,"businessType":"Text"},{"indexed":true,"objectFieldSettings":[],"DBType":"String","label":{"en_US":"Business Contact Name"},"type":"String","required":false,"externalReferenceCode":"aa73cd4b-681d-8861-3fee-7eec47689399","indexedAsKeyword":false,"system":false,"indexedLanguageId":"en_US","name":"businessContactName","state":false,"businessType":"Text"},{"indexed":true,"objectFieldSettings":[],"DBType":"Integer","label":{"en_US":"Business Contact Phone Number"},"type":"Integer","required":false,"externalReferenceCode":"aee02655-5915-d185-11e0-7376080cf9bc","indexedAsKeyword":false,"system":false,"indexedLanguageId":"","name":"businessContactPhoneNumber","state":false,"businessType":"Integer"},{"indexed":true,"objectFieldSettings":[],"DBType":"String","label":{"en_US":"Business Contact Title"},"type":"String","required":false,"externalReferenceCode":"bd9cb4f6-368e-9f32-4072-578225955a3e","indexedAsKeyword":false,"system":false,"indexedLanguageId":"en_US","name":"businessContactTitle","state":false,"businessType":"Text"},{"indexed":true,"objectFieldSettings":[],"DBType":"String","label":{"en_US":"Business Country"},"type":"String","required":false,"externalReferenceCode":"02b481fb-5a0c-e352-3166-3535f2841a67","indexedAsKeyword":false,"system":false,"indexedLanguageId":"en_US","name":"businessCountry","state":false,"businessType":"Text"},{"indexed":true,"objectFieldSettings":[],"DBType":"String","label":{"en_US":"Business Email"},"type":"String","required":false,"externalReferenceCode":"ca5dfb60-8ee0-5d14-65bd-b5b612b9e785","indexedAsKeyword":false,"system":false,"indexedLanguageId":"en_US","name":"businessEmail","state":false,"businessType":"Text"},{"indexed":true,"objectFieldSettings":[],"DBType":"Date","label":{"en_US":"Business Established Date"},"type":"Date","required":false,"externalReferenceCode":"fa37495e-d96c-ef08-f994-2f294845a37e","indexedAsKeyword":false,"system":false,"indexedLanguageId":"","name":"businessEstablishedDate","state":false,"businessType":"Date"},{"indexed":true,"objectFieldSettings":[],"DBType":"Integer","label":{"en_US":"Business Fax Number"},"type":"Integer","required":false,"externalReferenceCode":"e2b79ed5-c7af-678f-a29e-7c8165caa09e","indexedAsKeyword":false,"system":false,"indexedLanguageId":"","name":"businessFaxNumber","state":false,"businessType":"Integer"},{"indexed":true,"objectFieldSettings":[{"name":"acceptedFileExtensions","value":"jpeg, jpg, pdf, png"},{"name":"maximumFileSize","value":"100"},{"name":"fileSource","value":"userComputer"},{"name":"showFilesInDocumentsAndMedia","value":"true"},{"name":"storageDLFolderPath","value":"/DistributorApplication"}],"DBType":"Long","label":{"en_US":"Business License"},"type":"Long","required":false,"externalReferenceCode":"a7c8b085-cf1d-87b2-61af-c0cfb5e85796","indexedAsKeyword":false,"system":false,"indexedLanguageId":"en_US","name":"businessLicense","state":false,"businessType":"Attachment"},{"indexed":true,"objectFieldSettings":[],"DBType":"Integer","label":{"en_US":"Business License Number"},"type":"Integer","required":false,"externalReferenceCode":"1980893e-a034-a4f7-62ec-0876a3af0a6c","indexedAsKeyword":false,"system":false,"indexedLanguageId":"","name":"businessLicenseNumber","state":false,"businessType":"Integer"},{"indexed":true,"objectFieldSettings":[],"DBType":"String","label":{"en_US":"Business Name"},"type":"String","required":false,"externalReferenceCode":"4fcaeb8c-3a4e-d68a-5aa9-13f79e28c7f1","indexedAsKeyword":false,"system":false,"indexedLanguageId":"en_US","name":"businessName","state":false,"businessType":"Text"},{"indexed":true,"objectFieldSettings":[],"DBType":"Integer","label":{"en_US":"Business Phone Number"},"type":"Integer","required":false,"externalReferenceCode":"788ff32f-2c16-49b6-f0a4-70ad9525ac9c","indexedAsKeyword":false,"system":false,"indexedLanguageId":"","name":"businessPhoneNumber","state":false,"businessType":"Integer"},{"indexed":true,"objectFieldSettings":[],"DBType":"Integer","label":{"en_US":"Business Resale Number"},"type":"Integer","required":false,"externalReferenceCode":"926708b8-2463-a964-9928-ad238d6a20cc","indexedAsKeyword":false,"system":false,"indexedLanguageId":"","name":"businessResaleNumber","state":false,"businessType":"Integer"},{"indexed":true,"objectFieldSettings":[],"DBType":"String","label":{"en_US":"Business State, Province, Region"},"type":"String","required":false,"externalReferenceCode":"232c1922-01d4-e77a-ec86-9b72eaf0618b","indexedAsKeyword":false,"system":false,"indexedLanguageId":"en_US","name":"businessStateProvinceRegion","state":false,"businessType":"Text"},{"indexed":true,"objectFieldSettings":[],"DBType":"Integer","label":{"en_US":"Business Tax ID Number"},"type":"Integer","required":false,"externalReferenceCode":"19853289-be70-8377-b7f6-e321ec3572a9","indexedAsKeyword":false,"system":false,"indexedLanguageId":"","name":"businessTaxIDNumber","state":false,"businessType":"Integer"},{"listTypeDefinitionExternalReferenceCode":"LIST_BUSINESS_TYPES","indexed":true,"objectFieldSettings":[],"DBType":"String","label":{"en_US":"Business Type"},"type":"String","required":false,"externalReferenceCode":"c8131574-6198-7dc6-abf1-704278f5771c","indexedAsKeyword":false,"system":false,"indexedLanguageId":"en_US","name":"businessType","state":false,"businessType":"Picklist"},{"indexed":true,"objectFieldSettings":[],"DBType":"String","label":{"en_US":"Business Website"},"type":"String","required":false,"externalReferenceCode":"761b63e0-c682-cb29-1fa1-03dbcdfc47fb","indexedAsKeyword":false,"system":false,"indexedLanguageId":"en_US","name":"businessWebsite","state":false,"businessType":"Text"},{"indexed":true,"objectFieldSettings":[],"DBType":"Integer","label":{"en_US":"Business Zip, Postal Code"},"type":"Integer","required":false,"externalReferenceCode":"c3529e16-a54f-b5c6-d84a-829ed5cdd821","indexedAsKeyword":false,"system":false,"indexedLanguageId":"","name":"businessZipPostalCode","state":false,"businessType":"Integer"},{"indexed":false,"objectFieldSettings":[],"DBType":"Date","label":{"en_US":"Create Date"},"type":"Date","required":false,"externalReferenceCode":"41d551c6-957c-7289-6e3c-063b430b10ea","indexedAsKeyword":false,"system":true,"indexedLanguageId":"","name":"createDate","state":false,"businessType":"Date"},{"indexed":false,"objectFieldSettings":[],"DBType":"String","label":{"en_US":"Author"},"type":"String","required":false,"externalReferenceCode":"4dc4e465-df81-387b-4ae0-ab49605af60c","indexedAsKeyword":false,"system":true,"indexedLanguageId":"","name":"creator","state":false,"businessType":"Text"},{"indexed":true,"objectFieldSettings":[{"name":"acceptedFileExtensions","value":"jpeg, jpg, pdf, png"},{"name":"maximumFileSize","value":"100"},{"name":"fileSource","value":"userComputer"},{"name":"showFilesInDocumentsAndMedia","value":"true"},{"name":"storageDLFolderPath","value":"/DistributorApplication"}],"DBType":"Long","label":{"en_US":"Credit Authorization Form"},"type":"Long","required":false,"externalReferenceCode":"f1278709-2828-39c5-0246-70c98d1012d6","indexedAsKeyword":false,"system":false,"indexedLanguageId":"en_US","name":"creditAuthorizationForm","state":false,"businessType":"Attachment"},{"indexed":true,"objectFieldSettings":[],"DBType":"Integer","label":{"en_US":"Credit Reference One Account Number"},"type":"Integer","required":false,"externalReferenceCode":"1e390935-02c3-c52b-4f2e-7b0d23c32528","indexedAsKeyword":false,"system":false,"indexedLanguageId":"","name":"creditReferenceOneAccountNumber","state":false,"businessType":"Integer"},{"indexed":true,"objectFieldSettings":[],"DBType":"String","label":{"en_US":"Credit Reference One Address Line One"},"type":"String","required":false,"externalReferenceCode":"ea06823c-d47c-3d05-850d-1143ed6269ad","indexedAsKeyword":false,"system":false,"indexedLanguageId":"en_US","name":"creditReferenceOneAddressLineOne","state":false,"businessType":"Text"},{"indexed":true,"objectFieldSettings":[],"DBType":"String","label":{"en_US":"Credit Reference One Address Line Two"},"type":"String","required":false,"externalReferenceCode":"1d0142cb-3f4c-f90a-c181-0b7b7feb86e2","indexedAsKeyword":false,"system":false,"indexedLanguageId":"en_US","name":"creditReferenceOneAddressLineTwo","state":false,"businessType":"Text"},{"indexed":true,"objectFieldSettings":[],"DBType":"String","label":{"en_US":"Credit Reference One City"},"type":"String","required":false,"externalReferenceCode":"b61d87a1-c078-a763-9cd8-e15bbba4013d","indexedAsKeyword":false,"system":false,"indexedLanguageId":"en_US","name":"creditReferenceOneCity","state":false,"businessType":"Text"},{"indexed":true,"objectFieldSettings":[],"DBType":"String","label":{"en_US":"Credit Reference One Country"},"type":"String","required":false,"externalReferenceCode":"b8d3263b-55e5-bd82-19cf-e92af2bd2353","indexedAsKeyword":false,"system":false,"indexedLanguageId":"en_US","name":"creditReferenceOneCountry","state":false,"businessType":"Text"},{"indexed":true,"objectFieldSettings":[],"DBType":"Integer","label":{"en_US":"Credit Reference One Phone Number"},"type":"Integer","required":false,"externalReferenceCode":"8e17948a-dbc7-988c-3760-61bc790eaeb5","indexedAsKeyword":false,"system":false,"indexedLanguageId":"","name":"creditReferenceOnePhoneNumber","state":false,"businessType":"Integer"},{"indexed":true,"objectFieldSettings":[],"DBType":"String","label":{"en_US":"Credit Reference One State, Province, Region"},"type":"String","required":false,"externalReferenceCode":"3525699a-3241-cee6-417e-d7262729fd28","indexedAsKeyword":false,"system":false,"indexedLanguageId":"en_US","name":"creditReferenceOneStateProvinceRegion","state":false,"businessType":"Text"},{"indexed":true,"objectFieldSettings":[],"DBType":"String","label":{"en_US":"Credit Reference One Supplier Name"},"type":"String","required":false,"externalReferenceCode":"583346a1-7bbf-d382-0ae9-a49150010a87","indexedAsKeyword":false,"system":false,"indexedLanguageId":"en_US","name":"creditReferenceOneSupplierName","state":false,"businessType":"Text"},{"indexed":true,"objectFieldSettings":[],"DBType":"Integer","label":{"en_US":"Credit Reference One ZIP, Postal Code"},"type":"Integer","required":false,"externalReferenceCode":"73e4466d-7ebc-f26d-1701-a77db64cc152","indexedAsKeyword":false,"system":false,"indexedLanguageId":"","name":"creditReferenceOneZIPPostalCode","state":false,"businessType":"Integer"},{"indexed":true,"objectFieldSettings":[],"DBType":"Integer","label":{"en_US":"Credit Reference Two Account Number"},"type":"Integer","required":false,"externalReferenceCode":"d72a1d58-cca3-505c-e437-fa8fba6e992f","indexedAsKeyword":false,"system":false,"indexedLanguageId":"","name":"creditReferenceTwoAccountNumber","state":false,"businessType":"Integer"},{"indexed":true,"objectFieldSettings":[],"DBType":"String","label":{"en_US":"Credit Reference Two Address Line One"},"type":"String","required":false,"externalReferenceCode":"10c0aaa2-5c71-022e-53d9-507ce9e51804","indexedAsKeyword":false,"system":false,"indexedLanguageId":"en_US","name":"creditReferenceTwoAddressLineOne","state":false,"businessType":"Text"},{"indexed":true,"objectFieldSettings":[],"DBType":"String","label":{"en_US":"Credit Reference Two Address Line Two"},"type":"String","required":false,"externalReferenceCode":"959092c7-39ee-55b3-c8f3-0a2c4d1ad5a1","indexedAsKeyword":false,"system":false,"indexedLanguageId":"en_US","name":"creditReferenceTwoAddressLineTwo","state":false,"businessType":"Text"},{"indexed":true,"objectFieldSettings":[],"DBType":"String","label":{"en_US":"Credit Reference Two City"},"type":"String","required":false,"externalReferenceCode":"072dd902-c3b4-6ce4-9c1e-13e7ff5b395b","indexedAsKeyword":false,"system":false,"indexedLanguageId":"en_US","name":"creditReferenceTwoCity","state":false,"businessType":"Text"},{"indexed":true,"objectFieldSettings":[],"DBType":"String","label":{"en_US":"Credit Reference Two Country"},"type":"String","required":false,"externalReferenceCode":"5ed2067a-d1ff-40aa-3a68-67b20c13fbab","indexedAsKeyword":false,"system":false,"indexedLanguageId":"en_US","name":"creditReferenceTwoCountry","state":false,"businessType":"Text"},{"indexed":true,"objectFieldSettings":[],"DBType":"Integer","label":{"en_US":"Credit Reference Two Phone Number"},"type":"Integer","required":false,"externalReferenceCode":"a6908887-8b34-8ac9-32b4-f52f586a9b46","indexedAsKeyword":false,"system":false,"indexedLanguageId":"","name":"creditReferenceTwoPhoneNumber","state":false,"businessType":"Integer"},{"indexed":true,"objectFieldSettings":[],"DBType":"String","label":{"en_US":"Credit Reference Two State, Province, Region"},"type":"String","required":false,"externalReferenceCode":"0fb17ace-b015-e4fa-0a04-76e3fa40ea4a","indexedAsKeyword":false,"system":false,"indexedLanguageId":"en_US","name":"creditReferenceTwoStateProvinceRegion","state":false,"businessType":"Text"},{"indexed":true,"objectFieldSettings":[],"DBType":"String","label":{"en_US":"Credit Reference Two Supplier Name"},"type":"String","required":false,"externalReferenceCode":"67e294ea-d850-61ca-9552-3cada9456cf3","indexedAsKeyword":false,"system":false,"indexedLanguageId":"en_US","name":"creditReferenceTwoSupplierName","state":false,"businessType":"Text"},{"indexed":true,"objectFieldSettings":[],"DBType":"Integer","label":{"en_US":"Credit Reference Two ZIP, Postal Code"},"type":"Integer","required":false,"externalReferenceCode":"b220fbc1-5083-e34a-ae62-9a52a05e9c1c","indexedAsKeyword":false,"system":false,"indexedLanguageId":"","name":"creditReferenceTwoZIPPostalCode","state":false,"businessType":"Integer"},{"listTypeDefinitionExternalReferenceCode":"LIST_DISTRIBUTION_CHANNELS","indexed":true,"objectFieldSettings":[],"DBType":"String","label":{"en_US":"Distribution Channels"},"type":"String","required":false,"externalReferenceCode":"2442fb95-4882-d691-28ab-9177bb7dae98","indexedAsKeyword":false,"system":false,"indexedLanguageId":"en_US","name":"distributionChannels","state":false,"businessType":"MultiselectPicklist"},{"listTypeDefinitionExternalReferenceCode":"LIST_DISTRIBUTION_REGIONS","indexed":true,"objectFieldSettings":[],"DBType":"String","label":{"en_US":"Distribution Regions"},"type":"String","required":false,"externalReferenceCode":"a2424c56-04a4-523a-765b-2c3a84be065a","indexedAsKeyword":false,"system":false,"indexedLanguageId":"en_US","name":"distributionRegions","state":false,"businessType":"MultiselectPicklist"},{"listTypeDefinitionExternalReferenceCode":"LIST_ANNUAL_PURCHASE_VOLUMES","indexed":true,"objectFieldSettings":[],"DBType":"String","label":{"en_US":"Estimated Annual Purchase Volume"},"type":"String","required":false,"externalReferenceCode":"fed0fc6f-4b22-6de9-915e-ffe943b412a3","indexedAsKeyword":false,"system":false,"indexedLanguageId":"en_US","name":"estimatedAnnualPurchaseVolume","state":false,"businessType":"Picklist"},{"indexed":false,"objectFieldSettings":[],"DBType":"String","label":{"en_US":"External Reference Code"},"type":"String","required":false,"externalReferenceCode":"492b994b-a3c2-7f7c-6666-c9307643d7d0","indexedAsKeyword":false,"system":true,"indexedLanguageId":"","name":"externalReferenceCode","state":false,"businessType":"Text"},{"indexed":true,"objectFieldSettings":[],"DBType":"Long","label":{"en_US":"ID"},"type":"Long","required":false,"externalReferenceCode":"105acfa5-11ed-385f-464b-ffeed71a631a","indexedAsKeyword":true,"system":true,"indexedLanguageId":"","name":"id","state":false,"businessType":"LongInteger"},{"listTypeDefinitionExternalReferenceCode":"LIST_ORDER_TYPES","indexed":true,"objectFieldSettings":[],"DBType":"String","label":{"en_US":"Interested Order Types"},"type":"String","required":false,"externalReferenceCode":"0162f34d-52c0-2425-d98d-88b9a9647ec1","indexedAsKeyword":false,"system":false,"indexedLanguageId":"en_US","name":"interestedOrderTypes","state":false,"businessType":"MultiselectPicklist"},{"indexed":false,"objectFieldSettings":[],"DBType":"Date","label":{"en_US":"Modified Date"},"type":"Date","required":false,"externalReferenceCode":"d1fe8890-f283-3882-f4c8-08cf3f706ecc","indexedAsKeyword":false,"system":true,"indexedLanguageId":"","name":"modifiedDate","state":false,"businessType":"Date"},{"indexed":true,"objectFieldSettings":[],"DBType":"Integer","label":{"en_US":"Number of Employees"},"type":"Integer","required":false,"externalReferenceCode":"ca866010-11d1-9746-f41c-0d7aae4df8a4","indexedAsKeyword":false,"system":false,"indexedLanguageId":"","name":"numberOfEmployees","state":false,"businessType":"Integer"},{"indexed":true,"objectFieldSettings":[{"name":"showCounter","value":"false"}],"DBType":"Clob","label":{"en_US":"Other Brands Offered"},"type":"Clob","required":false,"externalReferenceCode":"32b87935-43d1-05e6-2cd8-a0329561b6bb","indexedAsKeyword":false,"system":false,"indexedLanguageId":"en_US","name":"otherBrandsOffered","state":false,"businessType":"LongText"},{"listTypeDefinitionExternalReferenceCode":"LIST_PRODUCT_LABELS","indexed":true,"objectFieldSettings":[],"DBType":"String","label":{"en_US":"Product Labeling"},"type":"String","required":false,"externalReferenceCode":"dddbaab6-74e1-5f02-c5ee-f312b434320f","indexedAsKeyword":false,"system":false,"indexedLanguageId":"en_US","name":"productLabeling","state":false,"businessType":"Picklist"},{"listTypeDefinitionExternalReferenceCode":"LIST_PRODUCT_TYPES","indexed":true,"objectFieldSettings":[],"DBType":"String","label":{"en_US":"Products of Interest"},"type":"String","required":false,"externalReferenceCode":"dab31dc1-a231-5164-3937-c8162ecc2369","indexedAsKeyword":false,"system":false,"indexedLanguageId":"en_US","name":"productsOfInterest","state":false,"businessType":"MultiselectPicklist"},{"indexed":true,"objectFieldSettings":[{"name":"acceptedFileExtensions","value":"jpeg, jpg, pdf, png"},{"name":"maximumFileSize","value":"100"},{"name":"fileSource","value":"userComputer"},{"name":"showFilesInDocumentsAndMedia","value":"true"},{"name":"storageDLFolderPath","value":"/DistributorApplication"}],"DBType":"Long","label":{"en_US":"Proof of Insurance"},"type":"Long","required":false,"externalReferenceCode":"b64f9212-fc82-9065-ea15-ebe5a0500190","indexedAsKeyword":false,"system":false,"indexedLanguageId":"en_US","name":"proofOfInsurance","state":false,"businessType":"Attachment"},{"indexed":false,"objectFieldSettings":[],"DBType":"String","label":{"en_US":"Status"},"type":"String","required":false,"externalReferenceCode":"f024c3cb-e533-88c7-034e-fca0008d4fc1","indexedAsKeyword":false,"system":true,"indexedLanguageId":"","name":"status","state":false,"businessType":"Text"}],"restContextPath":"/o/c/distributorapplications","scope":"company","portlet":true,"parameterRequired":false,"enableObjectEntryHistory":true,"titleObjectFieldName":"businessName","objectValidationRules":[],"active":true,"defaultLanguageId":"en_US","label":{"en_US":"Distributor Application"},"panelCategoryKey":"control_panel.object","pluralLabel":{"en_US":"Distributor Applications"},"objectLayouts":[],"system":false,"objectViews":[],"name":"DistributorApplication","actions":{"permissions":{},"get":{},"update":{},"delete":{}},"status":{"label_i18n":"Approved","code":0,"label":"approved"}}
+{
+    "accountEntryRestricted": false,
+    "accountEntryRestrictedObjectFieldName": "",
+    "actions": {
+        "delete": {},
+        "get": {},
+        "permissions": {},
+        "update": {}
+    },
+    "active": false,
+    "defaultLanguageId": "en_US",
+    "enableCategorization": true,
+    "enableComments": true,
+    "enableObjectEntryHistory": true,
+    "externalReferenceCode": "C_DISTRIBUTOR_APPLICATION",
+    "label": {
+        "en_US": "Distributor Application"
+    },
+    "name": "DistributorApplication",
+    "objectActions": [],
+    "objectFields": [
+        {
+            "DBType": "BigDecimal",
+            "businessType": "PrecisionDecimal",
+            "externalReferenceCode": "0fdc9d61-5e7d-9605-97bc-e5d28a87ccbd",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "",
+            "label": {
+                "en_US": "Annual Revenue (in USD)"
+            },
+            "name": "annualRevenue",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "BigDecimal"
+        },
+        {
+            "DBType": "String",
+            "businessType": "Text",
+            "externalReferenceCode": "e590780f-a9b8-80d1-1dab-f5cf7b7e40b0",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "en_US",
+            "label": {
+                "en_US": "Applicant Email"
+            },
+            "name": "applicantEmail",
+            "objectFieldSettings": [],
+            "required": true,
+            "state": false,
+            "system": false,
+            "type": "String"
+        },
+        {
+            "DBType": "String",
+            "businessType": "Text",
+            "externalReferenceCode": "d4dc5809-99b9-3b6c-3155-9023bf3b4980",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "en_US",
+            "label": {
+                "en_US": "Applicant Name"
+            },
+            "name": "applicantName",
+            "objectFieldSettings": [],
+            "required": true,
+            "state": false,
+            "system": false,
+            "type": "String"
+        },
+        {
+            "DBType": "Date",
+            "businessType": "Date",
+            "externalReferenceCode": "f6ef8ca1-b5f5-52b6-1d3a-e08796568a42",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "",
+            "label": {
+                "en_US": "Application Date"
+            },
+            "name": "applicationDate",
+            "objectFieldSettings": [],
+            "required": true,
+            "state": false,
+            "system": false,
+            "type": "Date"
+        },
+        {
+            "DBType": "String",
+            "businessType": "Text",
+            "externalReferenceCode": "f94523ad-b613-70d5-6048-73ca5ccc826c",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "en_US",
+            "label": {
+                "en_US": "Bank Account Number"
+            },
+            "name": "bankAccountNumber",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "String"
+        },
+        {
+            "DBType": "String",
+            "businessType": "Text",
+            "externalReferenceCode": "7acb3fd4-3e8d-81a2-2ca3-ce58a4b8ebce",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "en_US",
+            "label": {
+                "en_US": "Bank Address Line One"
+            },
+            "name": "bankAddressLineOne",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "String"
+        },
+        {
+            "DBType": "String",
+            "businessType": "Text",
+            "externalReferenceCode": "e3f4621d-b1cf-7e72-c90c-64cd49fa7c22",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "en_US",
+            "label": {
+                "en_US": "Bank Address Line Two"
+            },
+            "name": "bankAddressLineTwo",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "String"
+        },
+        {
+            "DBType": "String",
+            "businessType": "Text",
+            "externalReferenceCode": "3cb5060d-ed6d-1510-0899-8ac17399b8f4",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "en_US",
+            "label": {
+                "en_US": "Bank City"
+            },
+            "name": "bankCity",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "String"
+        },
+        {
+            "DBType": "String",
+            "businessType": "Text",
+            "externalReferenceCode": "c8268d73-9dbb-1d11-0e6f-8437c10eca6c",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "en_US",
+            "label": {
+                "en_US": "Bank Country"
+            },
+            "name": "bankCountry",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "String"
+        },
+        {
+            "DBType": "String",
+            "businessType": "Text",
+            "externalReferenceCode": "a3ebb708-d369-02c0-9baf-f041f9657b9c",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "en_US",
+            "label": {
+                "en_US": "Bank Name"
+            },
+            "name": "bankName",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "String"
+        },
+        {
+            "DBType": "Integer",
+            "businessType": "Integer",
+            "externalReferenceCode": "252a0d43-11eb-b9e0-42e4-97e1b2dce029",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "",
+            "label": {
+                "en_US": "Bank Phone Number"
+            },
+            "name": "bankPhoneNumber",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "Integer"
+        },
+        {
+            "DBType": "String",
+            "businessType": "Text",
+            "externalReferenceCode": "8fcd146b-ef0b-a135-1e35-c7b0570a8f1a",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "en_US",
+            "label": {
+                "en_US": "Bank State, Province, Region"
+            },
+            "name": "bankStateProvinceRegion",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "String"
+        },
+        {
+            "DBType": "Integer",
+            "businessType": "Integer",
+            "externalReferenceCode": "730e6a54-65bd-5672-0455-9489d4c95302",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "",
+            "label": {
+                "en_US": "Bank ZIP, Postal Code"
+            },
+            "name": "bankZIPPostalCode",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "Integer"
+        },
+        {
+            "DBType": "String",
+            "businessType": "Text",
+            "externalReferenceCode": "cdb4e816-8b41-994b-9014-208cc14a197b",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "en_US",
+            "label": {
+                "en_US": "Billing Address Line Two"
+            },
+            "name": "billingAddressLineTwo",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "String"
+        },
+        {
+            "DBType": "String",
+            "businessType": "Text",
+            "externalReferenceCode": "d850c825-6af2-0025-681b-d4aa9a6a11f0",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "en_US",
+            "label": {
+                "en_US": "Billing City"
+            },
+            "name": "billingCity",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "String"
+        },
+        {
+            "DBType": "String",
+            "businessType": "Text",
+            "externalReferenceCode": "12c83e2d-58b4-c413-0a59-3793fad4f414",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "en_US",
+            "label": {
+                "en_US": "Billing Country"
+            },
+            "name": "billingCountry",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "String"
+        },
+        {
+            "DBType": "String",
+            "businessType": "Text",
+            "externalReferenceCode": "5934e43a-f4f0-ad95-840c-cd2cbd5dc6db",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "en_US",
+            "label": {
+                "en_US": "Billing State, Province, Region"
+            },
+            "name": "billingStateProvinceRegion",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "String"
+        },
+        {
+            "DBType": "String",
+            "businessType": "Text",
+            "externalReferenceCode": "4567cd86-416b-d600-a9da-8e693d12ba0c",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "en_US",
+            "label": {
+                "en_US": "Billing Street Address"
+            },
+            "name": "billingStreetAddress",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "String"
+        },
+        {
+            "DBType": "Integer",
+            "businessType": "Integer",
+            "externalReferenceCode": "d2573707-e924-9263-1aec-efe6315c061f",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "",
+            "label": {
+                "en_US": "Billing Zip, Postal Code"
+            },
+            "name": "billingZipPostalCode",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "Integer"
+        },
+        {
+            "DBType": "String",
+            "businessType": "Text",
+            "externalReferenceCode": "0f84fbf5-10f2-cf17-ae3a-5997324028be",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "en_US",
+            "label": {
+                "en_US": "Business Address Line One"
+            },
+            "name": "businessAddressLineOne",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "String"
+        },
+        {
+            "DBType": "String",
+            "businessType": "Text",
+            "externalReferenceCode": "b720f065-1b1f-0e92-0ee1-894d31a3a316",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "en_US",
+            "label": {
+                "en_US": "Business Address Line Two"
+            },
+            "name": "businessAddressLineTwo",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "String"
+        },
+        {
+            "DBType": "String",
+            "businessType": "Text",
+            "externalReferenceCode": "7adbd2a1-c2c9-3ae4-7805-bb25cffaeda3",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "en_US",
+            "label": {
+                "en_US": "Business City"
+            },
+            "name": "businessCity",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "String"
+        },
+        {
+            "DBType": "String",
+            "businessType": "Text",
+            "externalReferenceCode": "022c6eb1-0218-2240-8930-0baffa435acd",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "en_US",
+            "label": {
+                "en_US": "Business Contact Email"
+            },
+            "name": "businessContactEmail",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "String"
+        },
+        {
+            "DBType": "String",
+            "businessType": "Text",
+            "externalReferenceCode": "aa73cd4b-681d-8861-3fee-7eec47689399",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "en_US",
+            "label": {
+                "en_US": "Business Contact Name"
+            },
+            "name": "businessContactName",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "String"
+        },
+        {
+            "DBType": "Integer",
+            "businessType": "Integer",
+            "externalReferenceCode": "aee02655-5915-d185-11e0-7376080cf9bc",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "",
+            "label": {
+                "en_US": "Business Contact Phone Number"
+            },
+            "name": "businessContactPhoneNumber",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "Integer"
+        },
+        {
+            "DBType": "String",
+            "businessType": "Text",
+            "externalReferenceCode": "bd9cb4f6-368e-9f32-4072-578225955a3e",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "en_US",
+            "label": {
+                "en_US": "Business Contact Title"
+            },
+            "name": "businessContactTitle",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "String"
+        },
+        {
+            "DBType": "String",
+            "businessType": "Text",
+            "externalReferenceCode": "02b481fb-5a0c-e352-3166-3535f2841a67",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "en_US",
+            "label": {
+                "en_US": "Business Country"
+            },
+            "name": "businessCountry",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "String"
+        },
+        {
+            "DBType": "String",
+            "businessType": "Text",
+            "externalReferenceCode": "ca5dfb60-8ee0-5d14-65bd-b5b612b9e785",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "en_US",
+            "label": {
+                "en_US": "Business Email"
+            },
+            "name": "businessEmail",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "String"
+        },
+        {
+            "DBType": "Date",
+            "businessType": "Date",
+            "externalReferenceCode": "fa37495e-d96c-ef08-f994-2f294845a37e",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "",
+            "label": {
+                "en_US": "Business Established Date"
+            },
+            "name": "businessEstablishedDate",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "Date"
+        },
+        {
+            "DBType": "Integer",
+            "businessType": "Integer",
+            "externalReferenceCode": "e2b79ed5-c7af-678f-a29e-7c8165caa09e",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "",
+            "label": {
+                "en_US": "Business Fax Number"
+            },
+            "name": "businessFaxNumber",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "Integer"
+        },
+        {
+            "DBType": "Long",
+            "businessType": "Attachment",
+            "externalReferenceCode": "a7c8b085-cf1d-87b2-61af-c0cfb5e85796",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "en_US",
+            "label": {
+                "en_US": "Business License"
+            },
+            "name": "businessLicense",
+            "objectFieldSettings": [
+                {
+                    "name": "acceptedFileExtensions",
+                    "value": "jpeg, jpg, pdf, png"
+                },
+                {
+                    "name": "maximumFileSize",
+                    "value": "100"
+                },
+                {
+                    "name": "fileSource",
+                    "value": "userComputer"
+                },
+                {
+                    "name": "showFilesInDocumentsAndMedia",
+                    "value": "true"
+                },
+                {
+                    "name": "storageDLFolderPath",
+                    "value": "/DistributorApplication"
+                }
+            ],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "Long"
+        },
+        {
+            "DBType": "Integer",
+            "businessType": "Integer",
+            "externalReferenceCode": "1980893e-a034-a4f7-62ec-0876a3af0a6c",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "",
+            "label": {
+                "en_US": "Business License Number"
+            },
+            "name": "businessLicenseNumber",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "Integer"
+        },
+        {
+            "DBType": "String",
+            "businessType": "Text",
+            "externalReferenceCode": "4fcaeb8c-3a4e-d68a-5aa9-13f79e28c7f1",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "en_US",
+            "label": {
+                "en_US": "Business Name"
+            },
+            "name": "businessName",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "String"
+        },
+        {
+            "DBType": "Integer",
+            "businessType": "Integer",
+            "externalReferenceCode": "788ff32f-2c16-49b6-f0a4-70ad9525ac9c",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "",
+            "label": {
+                "en_US": "Business Phone Number"
+            },
+            "name": "businessPhoneNumber",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "Integer"
+        },
+        {
+            "DBType": "Integer",
+            "businessType": "Integer",
+            "externalReferenceCode": "926708b8-2463-a964-9928-ad238d6a20cc",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "",
+            "label": {
+                "en_US": "Business Resale Number"
+            },
+            "name": "businessResaleNumber",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "Integer"
+        },
+        {
+            "DBType": "String",
+            "businessType": "Text",
+            "externalReferenceCode": "232c1922-01d4-e77a-ec86-9b72eaf0618b",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "en_US",
+            "label": {
+                "en_US": "Business State, Province, Region"
+            },
+            "name": "businessStateProvinceRegion",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "String"
+        },
+        {
+            "DBType": "Integer",
+            "businessType": "Integer",
+            "externalReferenceCode": "19853289-be70-8377-b7f6-e321ec3572a9",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "",
+            "label": {
+                "en_US": "Business Tax ID Number"
+            },
+            "name": "businessTaxIDNumber",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "Integer"
+        },
+        {
+            "DBType": "String",
+            "businessType": "Picklist",
+            "externalReferenceCode": "c8131574-6198-7dc6-abf1-704278f5771c",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "en_US",
+            "label": {
+                "en_US": "Business Type"
+            },
+            "listTypeDefinitionExternalReferenceCode": "LIST_BUSINESS_TYPES",
+            "name": "businessType",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "String"
+        },
+        {
+            "DBType": "String",
+            "businessType": "Text",
+            "externalReferenceCode": "761b63e0-c682-cb29-1fa1-03dbcdfc47fb",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "en_US",
+            "label": {
+                "en_US": "Business Website"
+            },
+            "name": "businessWebsite",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "String"
+        },
+        {
+            "DBType": "Integer",
+            "businessType": "Integer",
+            "externalReferenceCode": "c3529e16-a54f-b5c6-d84a-829ed5cdd821",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "",
+            "label": {
+                "en_US": "Business Zip, Postal Code"
+            },
+            "name": "businessZipPostalCode",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "Integer"
+        },
+        {
+            "DBType": "Date",
+            "businessType": "Date",
+            "externalReferenceCode": "41d551c6-957c-7289-6e3c-063b430b10ea",
+            "indexed": false,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "",
+            "label": {
+                "en_US": "Create Date"
+            },
+            "name": "createDate",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": true,
+            "type": "Date"
+        },
+        {
+            "DBType": "String",
+            "businessType": "Text",
+            "externalReferenceCode": "4dc4e465-df81-387b-4ae0-ab49605af60c",
+            "indexed": false,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "",
+            "label": {
+                "en_US": "Author"
+            },
+            "name": "creator",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": true,
+            "type": "String"
+        },
+        {
+            "DBType": "Long",
+            "businessType": "Attachment",
+            "externalReferenceCode": "f1278709-2828-39c5-0246-70c98d1012d6",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "en_US",
+            "label": {
+                "en_US": "Credit Authorization Form"
+            },
+            "name": "creditAuthorizationForm",
+            "objectFieldSettings": [
+                {
+                    "name": "acceptedFileExtensions",
+                    "value": "jpeg, jpg, pdf, png"
+                },
+                {
+                    "name": "maximumFileSize",
+                    "value": "100"
+                },
+                {
+                    "name": "fileSource",
+                    "value": "userComputer"
+                },
+                {
+                    "name": "showFilesInDocumentsAndMedia",
+                    "value": "true"
+                },
+                {
+                    "name": "storageDLFolderPath",
+                    "value": "/DistributorApplication"
+                }
+            ],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "Long"
+        },
+        {
+            "DBType": "Integer",
+            "businessType": "Integer",
+            "externalReferenceCode": "1e390935-02c3-c52b-4f2e-7b0d23c32528",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "",
+            "label": {
+                "en_US": "Credit Reference One Account Number"
+            },
+            "name": "creditReferenceOneAccountNumber",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "Integer"
+        },
+        {
+            "DBType": "String",
+            "businessType": "Text",
+            "externalReferenceCode": "ea06823c-d47c-3d05-850d-1143ed6269ad",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "en_US",
+            "label": {
+                "en_US": "Credit Reference One Address Line One"
+            },
+            "name": "creditReferenceOneAddressLineOne",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "String"
+        },
+        {
+            "DBType": "String",
+            "businessType": "Text",
+            "externalReferenceCode": "1d0142cb-3f4c-f90a-c181-0b7b7feb86e2",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "en_US",
+            "label": {
+                "en_US": "Credit Reference One Address Line Two"
+            },
+            "name": "creditReferenceOneAddressLineTwo",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "String"
+        },
+        {
+            "DBType": "String",
+            "businessType": "Text",
+            "externalReferenceCode": "b61d87a1-c078-a763-9cd8-e15bbba4013d",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "en_US",
+            "label": {
+                "en_US": "Credit Reference One City"
+            },
+            "name": "creditReferenceOneCity",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "String"
+        },
+        {
+            "DBType": "String",
+            "businessType": "Text",
+            "externalReferenceCode": "b8d3263b-55e5-bd82-19cf-e92af2bd2353",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "en_US",
+            "label": {
+                "en_US": "Credit Reference One Country"
+            },
+            "name": "creditReferenceOneCountry",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "String"
+        },
+        {
+            "DBType": "Integer",
+            "businessType": "Integer",
+            "externalReferenceCode": "8e17948a-dbc7-988c-3760-61bc790eaeb5",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "",
+            "label": {
+                "en_US": "Credit Reference One Phone Number"
+            },
+            "name": "creditReferenceOnePhoneNumber",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "Integer"
+        },
+        {
+            "DBType": "String",
+            "businessType": "Text",
+            "externalReferenceCode": "3525699a-3241-cee6-417e-d7262729fd28",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "en_US",
+            "label": {
+                "en_US": "Credit Reference One State, Province, Region"
+            },
+            "name": "creditReferenceOneStateProvinceRegion",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "String"
+        },
+        {
+            "DBType": "String",
+            "businessType": "Text",
+            "externalReferenceCode": "583346a1-7bbf-d382-0ae9-a49150010a87",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "en_US",
+            "label": {
+                "en_US": "Credit Reference One Supplier Name"
+            },
+            "name": "creditReferenceOneSupplierName",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "String"
+        },
+        {
+            "DBType": "Integer",
+            "businessType": "Integer",
+            "externalReferenceCode": "73e4466d-7ebc-f26d-1701-a77db64cc152",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "",
+            "label": {
+                "en_US": "Credit Reference One ZIP, Postal Code"
+            },
+            "name": "creditReferenceOneZIPPostalCode",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "Integer"
+        },
+        {
+            "DBType": "Integer",
+            "businessType": "Integer",
+            "externalReferenceCode": "d72a1d58-cca3-505c-e437-fa8fba6e992f",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "",
+            "label": {
+                "en_US": "Credit Reference Two Account Number"
+            },
+            "name": "creditReferenceTwoAccountNumber",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "Integer"
+        },
+        {
+            "DBType": "String",
+            "businessType": "Text",
+            "externalReferenceCode": "10c0aaa2-5c71-022e-53d9-507ce9e51804",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "en_US",
+            "label": {
+                "en_US": "Credit Reference Two Address Line One"
+            },
+            "name": "creditReferenceTwoAddressLineOne",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "String"
+        },
+        {
+            "DBType": "String",
+            "businessType": "Text",
+            "externalReferenceCode": "959092c7-39ee-55b3-c8f3-0a2c4d1ad5a1",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "en_US",
+            "label": {
+                "en_US": "Credit Reference Two Address Line Two"
+            },
+            "name": "creditReferenceTwoAddressLineTwo",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "String"
+        },
+        {
+            "DBType": "String",
+            "businessType": "Text",
+            "externalReferenceCode": "072dd902-c3b4-6ce4-9c1e-13e7ff5b395b",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "en_US",
+            "label": {
+                "en_US": "Credit Reference Two City"
+            },
+            "name": "creditReferenceTwoCity",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "String"
+        },
+        {
+            "DBType": "String",
+            "businessType": "Text",
+            "externalReferenceCode": "5ed2067a-d1ff-40aa-3a68-67b20c13fbab",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "en_US",
+            "label": {
+                "en_US": "Credit Reference Two Country"
+            },
+            "name": "creditReferenceTwoCountry",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "String"
+        },
+        {
+            "DBType": "Integer",
+            "businessType": "Integer",
+            "externalReferenceCode": "a6908887-8b34-8ac9-32b4-f52f586a9b46",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "",
+            "label": {
+                "en_US": "Credit Reference Two Phone Number"
+            },
+            "name": "creditReferenceTwoPhoneNumber",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "Integer"
+        },
+        {
+            "DBType": "String",
+            "businessType": "Text",
+            "externalReferenceCode": "0fb17ace-b015-e4fa-0a04-76e3fa40ea4a",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "en_US",
+            "label": {
+                "en_US": "Credit Reference Two State, Province, Region"
+            },
+            "name": "creditReferenceTwoStateProvinceRegion",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "String"
+        },
+        {
+            "DBType": "String",
+            "businessType": "Text",
+            "externalReferenceCode": "67e294ea-d850-61ca-9552-3cada9456cf3",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "en_US",
+            "label": {
+                "en_US": "Credit Reference Two Supplier Name"
+            },
+            "name": "creditReferenceTwoSupplierName",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "String"
+        },
+        {
+            "DBType": "Integer",
+            "businessType": "Integer",
+            "externalReferenceCode": "b220fbc1-5083-e34a-ae62-9a52a05e9c1c",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "",
+            "label": {
+                "en_US": "Credit Reference Two ZIP, Postal Code"
+            },
+            "name": "creditReferenceTwoZIPPostalCode",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "Integer"
+        },
+        {
+            "DBType": "String",
+            "businessType": "MultiselectPicklist",
+            "externalReferenceCode": "2442fb95-4882-d691-28ab-9177bb7dae98",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "en_US",
+            "label": {
+                "en_US": "Distribution Channels"
+            },
+            "listTypeDefinitionExternalReferenceCode": "LIST_DISTRIBUTION_CHANNELS",
+            "name": "distributionChannels",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "String"
+        },
+        {
+            "DBType": "String",
+            "businessType": "MultiselectPicklist",
+            "externalReferenceCode": "a2424c56-04a4-523a-765b-2c3a84be065a",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "en_US",
+            "label": {
+                "en_US": "Distribution Regions"
+            },
+            "listTypeDefinitionExternalReferenceCode": "LIST_DISTRIBUTION_REGIONS",
+            "name": "distributionRegions",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "String"
+        },
+        {
+            "DBType": "String",
+            "businessType": "Picklist",
+            "externalReferenceCode": "fed0fc6f-4b22-6de9-915e-ffe943b412a3",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "en_US",
+            "label": {
+                "en_US": "Estimated Annual Purchase Volume"
+            },
+            "listTypeDefinitionExternalReferenceCode": "LIST_ANNUAL_PURCHASE_VOLUMES",
+            "name": "estimatedAnnualPurchaseVolume",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "String"
+        },
+        {
+            "DBType": "String",
+            "businessType": "Text",
+            "externalReferenceCode": "492b994b-a3c2-7f7c-6666-c9307643d7d0",
+            "indexed": false,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "",
+            "label": {
+                "en_US": "External Reference Code"
+            },
+            "name": "externalReferenceCode",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": true,
+            "type": "String"
+        },
+        {
+            "DBType": "Long",
+            "businessType": "LongInteger",
+            "externalReferenceCode": "105acfa5-11ed-385f-464b-ffeed71a631a",
+            "indexed": true,
+            "indexedAsKeyword": true,
+            "indexedLanguageId": "",
+            "label": {
+                "en_US": "ID"
+            },
+            "name": "id",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": true,
+            "type": "Long"
+        },
+        {
+            "DBType": "String",
+            "businessType": "MultiselectPicklist",
+            "externalReferenceCode": "0162f34d-52c0-2425-d98d-88b9a9647ec1",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "en_US",
+            "label": {
+                "en_US": "Interested Order Types"
+            },
+            "listTypeDefinitionExternalReferenceCode": "LIST_ORDER_TYPES",
+            "name": "interestedOrderTypes",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "String"
+        },
+        {
+            "DBType": "Date",
+            "businessType": "Date",
+            "externalReferenceCode": "d1fe8890-f283-3882-f4c8-08cf3f706ecc",
+            "indexed": false,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "",
+            "label": {
+                "en_US": "Modified Date"
+            },
+            "name": "modifiedDate",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": true,
+            "type": "Date"
+        },
+        {
+            "DBType": "Integer",
+            "businessType": "Integer",
+            "externalReferenceCode": "ca866010-11d1-9746-f41c-0d7aae4df8a4",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "",
+            "label": {
+                "en_US": "Number of Employees"
+            },
+            "name": "numberOfEmployees",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "Integer"
+        },
+        {
+            "DBType": "Clob",
+            "businessType": "LongText",
+            "externalReferenceCode": "32b87935-43d1-05e6-2cd8-a0329561b6bb",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "en_US",
+            "label": {
+                "en_US": "Other Brands Offered"
+            },
+            "name": "otherBrandsOffered",
+            "objectFieldSettings": [
+                {
+                    "name": "showCounter",
+                    "value": "false"
+                }
+            ],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "Clob"
+        },
+        {
+            "DBType": "String",
+            "businessType": "Picklist",
+            "externalReferenceCode": "dddbaab6-74e1-5f02-c5ee-f312b434320f",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "en_US",
+            "label": {
+                "en_US": "Product Labeling"
+            },
+            "listTypeDefinitionExternalReferenceCode": "LIST_PRODUCT_LABELS",
+            "name": "productLabeling",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "String"
+        },
+        {
+            "DBType": "String",
+            "businessType": "MultiselectPicklist",
+            "externalReferenceCode": "dab31dc1-a231-5164-3937-c8162ecc2369",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "en_US",
+            "label": {
+                "en_US": "Products of Interest"
+            },
+            "listTypeDefinitionExternalReferenceCode": "LIST_PRODUCT_TYPES",
+            "name": "productsOfInterest",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "String"
+        },
+        {
+            "DBType": "Long",
+            "businessType": "Attachment",
+            "externalReferenceCode": "b64f9212-fc82-9065-ea15-ebe5a0500190",
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "en_US",
+            "label": {
+                "en_US": "Proof of Insurance"
+            },
+            "name": "proofOfInsurance",
+            "objectFieldSettings": [
+                {
+                    "name": "acceptedFileExtensions",
+                    "value": "jpeg, jpg, pdf, png"
+                },
+                {
+                    "name": "maximumFileSize",
+                    "value": "100"
+                },
+                {
+                    "name": "fileSource",
+                    "value": "userComputer"
+                },
+                {
+                    "name": "showFilesInDocumentsAndMedia",
+                    "value": "true"
+                },
+                {
+                    "name": "storageDLFolderPath",
+                    "value": "/DistributorApplication"
+                }
+            ],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "Long"
+        },
+        {
+            "DBType": "String",
+            "businessType": "Text",
+            "externalReferenceCode": "f024c3cb-e533-88c7-034e-fca0008d4fc1",
+            "indexed": false,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "",
+            "label": {
+                "en_US": "Status"
+            },
+            "name": "status",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": true,
+            "type": "String"
+        }
+    ],
+    "objectLayouts": [],
+    "objectRelationships": [
+        {
+            "deletionType": "prevent",
+            "label": {
+                "en_US": "Distributor Application to Tickets"
+            },
+            "name": "distributorApplicationToTickets",
+            "objectDefinitionExternalReferenceCode1": "C_DISTRIBUTOR_APPLICATION",
+            "objectDefinitionExternalReferenceCode2": "C_TICKET",
+            "objectDefinitionName2": "Ticket",
+            "parameterObjectFieldId": 0,
+            "parameterObjectFieldName": "",
+            "reverse": false,
+            "type": "oneToMany"
+        }
+    ],
+    "objectValidationRules": [],
+    "objectViews": [],
+    "panelCategoryKey": "control_panel.object",
+    "parameterRequired": false,
+    "pluralLabel": {
+        "en_US": "Distributor Applications"
+    },
+    "portlet": true,
+    "restContextPath": "/o/c/distributorapplications",
+    "scope": "company",
+    "status": {
+        "code": 0,
+        "label": "approved",
+        "label_i18n": "Approved"
+    },
+    "system": false,
+    "titleObjectFieldName": "businessName"
+}
